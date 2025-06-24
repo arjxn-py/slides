@@ -3,6 +3,6 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   root: '.',
   server: {
-    open: true
-  }
+    open: true,
+  },
 });

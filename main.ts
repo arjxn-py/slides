@@ -6,7 +6,7 @@ import Notes from 'reveal.js/plugin/notes/notes.esm.js';
 const deck = new Reveal({
   hash: true,
   slideNumber: true,
-  plugins: [Markdown, Highlight, Notes]
+  plugins: [Markdown, Highlight, Notes],
 });
 
 deck.initialize().then(() => {
