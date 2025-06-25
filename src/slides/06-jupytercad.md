@@ -61,3 +61,29 @@
   <p class="fragment" style="font-size: 1.9rem">CRDT-based real-time co-editing via Y.js & PyCRDT</p>
   <video src="/video/jcad/jcad-collaborative.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
+
+<section>
+  <h3>💬 Suggestions Support</h3>
+  <p class="fragment" style="font-size: 1rem">
+    Collaborators can propose changes without modifying the actual model.
+  </p>
+  <p class="fragment" style="font-size: 1rem">
+    Editors receive these as <strong>suggestions</strong> and can choose to <strong>accept</strong> or <strong>reject</strong> them.
+  </p>
+  <p class="fragment" style="font-size: 1rem">
+    Enables asynchronous review cycles, just like pull requests in code!
+  </p>
+  <video src="/video/jcad/jcad-suggestions.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+</section>
+
+<section>
+  <h3>📁 File Format Support</h3>
+  <ul>
+    <li class="fragment"><strong>FCStd</strong> — Read, edit, and export <em>FreeCAD</em> project files natively</li>
+    <li class="fragment"><strong>STL</strong> — Import mesh models for quick inspection or editing</li>
+    <li class="fragment"><strong>STEP</strong> — Bring in precise solid geometry from external CAD tools</li>
+  </ul>
+  <p class="fragment" style="margin-top: 1rem;">
+    Move between tools without friction — with support for common CAD formats.
+  </p>
+</section>
