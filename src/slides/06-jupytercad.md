@@ -41,19 +41,23 @@
 <section>
   <p><strong>🎛️ Transform controls with snapping</strong></p>
   <p class="fragment">Precise geometric manipulation in the browser</p>
+  <video src="/video/jcad/jcad-transform.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>🧮 Python API for programmatic geometry</strong></p>
-  <p class="fragment">Write Python code to generate and transform shapes</p>
+  <p class="fragment">Write Python code to generate & modify shapes</p>
+  <video src="/video/jcad/jcad-console.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>📓 Notebook integration</strong></p>
-  <p class="fragment">CAD alongside your code, documentation, and results</p>
+  <p class="fragment">CAD alongside your code & documentation</p>
+  <video src="/video/jcad/jcad-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>🤝 Collaborative editing</strong></p>
-  <p class="fragment">CRDT-based real-time co-editing via Y.js & PyCRDT</p>
+  <p class="fragment" style="font-size: 1.9rem">CRDT-based real-time co-editing via Y.js & PyCRDT</p>
+  <video src="/video/jcad/jcad-collaborative.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
