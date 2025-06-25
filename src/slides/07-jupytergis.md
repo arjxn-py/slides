@@ -38,6 +38,22 @@
   </section>
 
   <section>
+    <h3>Identify Panel</h3>
+  </section>
+
+  <section>
+    <h3>Time Slider</h3>
+  </section>
+
+  <section>
+    <h3>QGIS Compatibility</h3>
+  </section>
+
+  <section>
+    <h3>Annotation & collaboration</h3>
+  </section>
+
+  <section>
     <h3>📓 Notebook + Python Integration</h3>
     <p class="fragment">Use Python code cells to add, style, and transform spatial layers</p>
   </section>
@@ -57,3 +73,7 @@
     <li class="fragment">Ideal for environmental science, urban planning, and climate research</li>
   </ul>
 </section> -->
+
+<section>
+  <h3>Embedded Lite Deployment</h3>
+</section>

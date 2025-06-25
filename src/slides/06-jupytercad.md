@@ -87,3 +87,7 @@
     Move between tools without friction — with support for common CAD formats.
   </p>
 </section>
+
+<section>
+  <h3>Embedded Lite Deployment</h3>
+</section>
