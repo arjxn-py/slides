@@ -15,11 +15,15 @@ deck.initialize().then(() => {
 
   const astronaut = document.getElementById('astronaut') as HTMLImageElement;
 
+  let previousCornerIndex: number | null = null;
+
   function moveAstronaut() {
     if (!astronaut) return;
 
+    // Hide temporarily to re-position cleanly
     astronaut.style.display = 'none';
 
+    // Reset all previous positions and transforms
     astronaut.style.top = '';
     astronaut.style.bottom = '';
     astronaut.style.left = '';
@@ -44,9 +48,18 @@ deck.initialize().then(() => {
       },
     ];
 
-    const choice = cornerOptions[Math.floor(Math.random() * cornerOptions.length)];
+    // Choose a different index than last time
+    let cornerIndex: number;
+    do {
+      cornerIndex = Math.floor(Math.random() * cornerOptions.length);
+    } while (cornerIndex === previousCornerIndex && cornerOptions.length > 1);
+
+    previousCornerIndex = cornerIndex;
+
+    const choice = cornerOptions[cornerIndex];
     const angle = getRandomAngle(choice.angleRange);
 
+    // Apply new styles
     Object.assign(astronaut.style, choice.position, {
       display: 'block',
       transform: `rotate(${angle}deg)`,
