@@ -6,7 +6,7 @@
     "watch:slides": "chokidar 'src/slides/**/*.md' -c 'npm run slides:build'",
     "vite": "vite",
     "dev": "npm-run-all --parallel watch:slides vite",
-    "build": "vite build",
+    "build": "npm run slides:build && vite build",
     "preview": "vite preview",
     "lint": "prettier . --write"
   },
