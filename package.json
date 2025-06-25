@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "slides:build": "node scripts/concat-slides.js",
-    "watch:slides": "chokidar 'data/slides/**/*.md' -c 'npm run slides:build'",
+    "watch:slides": "chokidar 'src/slides/**/*.md' -c 'npm run slides:build'",
     "vite": "vite",
     "dev": "npm-run-all --parallel watch:slides vite",
     "build": "vite build",

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const slidesDir = path.join(__dirname, '../data/slides');
+const slidesDir = path.join(__dirname, '../src/slides');
 const outputFile = path.join(__dirname, '../slides.md');
 
 const files = fs
