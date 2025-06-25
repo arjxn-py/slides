@@ -27,7 +27,7 @@
 </div>
 
 <div style="flex: 1; text-align: center; min-width: 280px;">
-  <img src="src/images/team.png" alt="QuantStack Team" style="width: 90%; max-width: 300px; height: auto; border-radius: 8px;" />
+  <img src="/images/team.png" alt="QuantStack Team" style="width: 90%; max-width: 300px; height: auto; border-radius: 8px;" />
   <p style="font-style: italic; margin-top: 0.5em;">
     Empowering scientists and developers worldwide with cutting-edge tools
   </p>
