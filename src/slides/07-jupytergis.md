@@ -34,6 +34,7 @@
   <section>
     <h3>🔄 Dynamic Layer Management</h3>
     <p class="fragment">Add, remove, and style layers with a built-in interactive UI</p>
+    <video src="/video/jgis/jgis-layer-management.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>

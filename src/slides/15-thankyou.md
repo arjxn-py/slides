@@ -4,7 +4,6 @@
 - 🔗 [jupytercad.github.io](https://jupytercad.github.io/JupyterCAD)
 - 🔗 [github.com/geojupyter/jupytergis](https://github.com/geojupyter/jupytergis)
 - 🔗 [jupytergis.readthedocs.io](https://jupytergis.readthedocs.io)
-- 📬 arjunverma.dev / @your_handle
 
 ---
 

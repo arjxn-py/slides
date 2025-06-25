@@ -224,6 +224,7 @@
   <section>
     <h3>🔄 Dynamic Layer Management</h3>
     <p class="fragment">Add, remove, and style layers with a built-in interactive UI</p>
+    <video src="/video/jgis/jgis-layer-management.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
@@ -275,30 +276,6 @@
 
 ---
 
-# Collaboration in Action
-
----
-
-## Why Collaboration?
-
-- CAD/GIS workflows are team-based
-- Real-time editing means:
-  - Design reviews without emailing files
-  - Feedback loops within the notebook
-  - Teaching in sync with code + maps
-
----
-
-## Collaboration Features
-
-- 🔁 CRDT-powered model syncing
-- 👥 Role-based editing modes
-- 📌 Suggestion tracking for design feedback
-- 🧾 Auto-synced metadata
-
-
----
-
 # Use Cases
 
 ---
@@ -323,94 +300,12 @@
 
 ---
 
-# Demo Time 🎥
-
----
-
-## Live Demo: JupyterCAD
-
-- Sketch → Extrude → Modify
-- Parametric shape generation
-- Live collaboration (edit from two tabs)
-
----
-
-## Live Demo: JupyterGIS
-
-- Load GeoJSON + satellite tiles
-- Apply graduated symbology
-- Add Python-powered layer from notebook
-- Run a zonal statistic on a raster layer
-
-
----
-
-# A Contributor's Note
-
----
-
-## Why I contribute
-
-- Frustrated by friction in spatial tooling
-- Wanted browser-based, scriptable CAD & GIS
-- Contributing to:
-  - Symbology systems
-  - Plugin architecture
-  - UI/UX and interaction models
-
----
-
-## Lessons from OSS
-
-- Web tech is ready for scientific modeling
-- Collaboration unlocks better design + reproducibility
-- You don’t need a background in GIS/CAD to contribute
-- Everyone can build extensions that improve accessibility
-
-
----
-
-# Why Should FreeCAD/QGIS Users Care?
-
----
-
-## Moving beyond traditional tools
-
-- Use JupyterCAD instead of FreeCAD when:
-  - You want parametric modeling **in notebooks**
-  - You need real-time team input
-  - You don’t want to install anything
-
-- Use JupyterGIS instead of ArcGIS/QGIS when:
-  - You need to **integrate GIS with Python code**
-  - You want to share workflows as reproducible notebooks
-  - You care about client-side performance and transparency
-
-
----
-
-# Key Takeaways
-
----
-
-## Key Takeaways
-
-- You can now do CAD + GIS inside JupyterLab
-- It's all browser-native and open source
-- It’s collaborative by default
-- You can contribute—even if you're not a GIS/CAD expert
-- The spatial web is already here
-
-
----
-
 ## Learn More / Get Involved
 
 - 🔗 [github.com/jupytercad/JupyterCAD](https://github.com/jupytercad/JupyterCAD)
 - 🔗 [jupytercad.github.io](https://jupytercad.github.io/JupyterCAD)
 - 🔗 [github.com/geojupyter/jupytergis](https://github.com/geojupyter/jupytergis)
 - 🔗 [jupytergis.readthedocs.io](https://jupytergis.readthedocs.io)
-- 📬 arjunverma.dev / @your_handle
 
 ---
 
