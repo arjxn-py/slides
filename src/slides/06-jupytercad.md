@@ -13,28 +13,32 @@
   </ul>
 </section>
 
-<section>
-  <h3>JupyterCAD Features</h3>
-  <ul>
-    <li class="fragment">✏️ Sketch-based modeling</li>
-    <li class="fragment">🎛️ Transform controls with snapping</li>
-    <li class="fragment">🧮 Python API for programmatic geometry</li>
-    <li class="fragment">📓 Notebook integration</li>
-    <li class="fragment">🤝 Collaborative editing with Y.js & PyCRDT</li>
-  </ul>
-</section>
+  <section>
+    <h3>JupyterCAD Features</h3>
+    <p>(1/5) ✏️ Sketch-based modeling</p>
+    <video src="/video/jcad/jcad-sketch.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  </section>
 
-<section>
-  <h3>Why JupyterCAD?</h3>
-  <ul>
-    <li class="fragment">Replaces FreeCAD in notebook-based workflows</li>
-    <li class="fragment">Great for:</li>
-    <ul>
-      <li class="fragment">Engineering education</li>
-      <li class="fragment">Design versioning</li>
-      <li class="fragment">Parametric part generation</li>
-    </ul>
-    <li class="fragment">No install needed</li>
-    <li class="fragment">Fully scriptable and shareable</li>
-  </ul>
-</section>
+  <section>
+    <h3>JupyterCAD Features</h3>
+    <p>(2/5) 🎛️ Transform controls with snapping</p>
+    <p class="fragment">Precise geometric manipulation in the browser</p>
+  </section>
+
+  <section>
+    <h3>JupyterCAD Features</h3>
+    <p>(3/5) 🧮 Python API for programmatic geometry</p>
+    <p class="fragment">Write Python code to generate and transform shapes</p>
+  </section>
+
+  <section>
+    <h3>JupyterCAD Features</h3>
+    <p>(4/5) 📓 Notebook integration</p>
+    <p class="fragment">CAD alongside your code, documentation, and results</p>
+  </section>
+
+  <section>
+    <h3>JupyterCAD Features</h3>
+    <p>(5/5) 🤝 Collaborative editing</p>
+    <p class="fragment">CRDT-based real-time co-editing via Y.js & PyCRDT</p>
+  </section>
