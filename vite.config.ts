@@ -10,12 +10,10 @@ export default defineConfig({
     rollupOptions: {
       plugins: [
         copy({
-          targets: [
-            { src: 'slides.md', dest: 'dist' }
-          ],
-          hook: 'writeBundle'
-        })
-      ]
-    }
-  }
+          targets: [{ src: 'slides.md', dest: 'dist' }],
+          hook: 'writeBundle',
+        }),
+      ],
+    },
+  },
 });

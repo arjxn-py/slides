@@ -11,7 +11,7 @@
 
 ---
 
-## Not just JupyterLite
+## Not just JupyterLab
 
 - Works in full JupyterLab setups
 - WASM enables install-free use

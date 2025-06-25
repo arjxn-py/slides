@@ -6,7 +6,6 @@
 </div>
 <!-- .slide: data-transition="zoom" -->
 
-
 ---
 
 <!-- .slide: class="section-with-footer" -->
@@ -35,7 +34,6 @@
 
 </div>
 
-
 ---
 
 <section>
@@ -49,7 +47,6 @@
     <li style="font-size: 1.9rem">Advocate for high-performance scientific computing in the browser</li>
   </ul>
 </section>
-
 
 ---
 
@@ -83,7 +80,6 @@
   </ul>
 </section>
 
-
 ---
 
 <section>
@@ -105,7 +101,6 @@
     <li class="fragment">Transparent execution history and outputs enable <strong>auditability</strong></li>
   </ul>
 </section>
-
 
 ---
 
@@ -203,7 +198,6 @@
   <h3>Embedded Lite Deployment</h3>
 </section>
 
-
 ---
 
 <section>
@@ -286,7 +280,6 @@
   <h3>Embedded Lite Deployment</h3>
 </section>
 
-
 ---
 
 # Web Tech Under the Hood
@@ -302,7 +295,7 @@
 
 ---
 
-## Not just JupyterLite
+## Not just JupyterLab
 
 - Works in full JupyterLab setups
 - WASM enables install-free use
@@ -310,7 +303,6 @@
   - JupyterHub
   - Voila
   - JupyterLite
-
 
 ---
 
@@ -324,7 +316,7 @@
 - 🏙️ Urban planners
 - 🧑‍🏫 Educators
 - 🌿 Environmental scientists
-- 👩‍💻 Open-source contributors
+<!-- - 👩‍💻 Open-source contributors -->
 
 ---
 
@@ -334,7 +326,6 @@
 2. Pollution layer overlays + AQI data (JupyterGIS)
 3. Satellite image analysis workflows (GDAL in-browser)
 4. Collaborative geo-tagged design notebooks for civic planning
-
 
 ---
 

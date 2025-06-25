@@ -32,3 +32,12 @@
 .reveal .slides section[data-background-color] {
   background-color: unset;
 }
+
+#astronaut {
+  position: fixed;
+  width: 100px;
+  height: auto;
+  z-index: 1000;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}

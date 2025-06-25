@@ -8,7 +8,7 @@
 - 🏙️ Urban planners
 - 🧑‍🏫 Educators
 - 🌿 Environmental scientists
-- 👩‍💻 Open-source contributors
+<!-- - 👩‍💻 Open-source contributors -->
 
 ---
 
