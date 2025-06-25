@@ -92,7 +92,6 @@
     <li class="fragment">Scientific computing is increasingly moving to the <strong>browser</strong></li>
     <li class="fragment"><strong>CAD</strong> and <strong>GIS</strong> tools are still mostly tied to heavy <strong>desktop applications</strong></li>
     <li class="fragment"><strong>Jupyter</strong> has become the central hub for <strong>reproducible research</strong></li>
-    <li class="fragment">It's time to bring <strong>spatial and geometric data workflows</strong> into this ecosystem</li>
   </ul>
 </section>
 
@@ -249,10 +248,10 @@
 
   <section>
     <h3>🧪 Client-Side Analysis</h3>
-    <p class="fragment">Perform zonal stats, reprojection, and overlays with GDAL-WASM — no server required</p>
+    <p class="fragment">Perform buffer, dissolve, centroid and overlays with GDAL-WASM — no server required</p>
   </section>
 
-<section>
+<!-- <section>
   <h3>🌐 Scientific Edge: GDAL in the Browser</h3>
   <ul>
     <li class="fragment"><strong>Raster reprojection</strong> & CRS transformations</li>
@@ -261,7 +260,7 @@
     <li class="fragment">Fully client-side & offline-capable</li>
     <li class="fragment">Ideal for environmental science, urban planning, and climate research</li>
   </ul>
-</section>
+</section> -->
 
 
 ---

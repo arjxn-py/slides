@@ -44,10 +44,10 @@
 
   <section>
     <h3>🧪 Client-Side Analysis</h3>
-    <p class="fragment">Perform zonal stats, reprojection, and overlays with GDAL-WASM — no server required</p>
+    <p class="fragment">Perform buffer, dissolve, centroid and overlays with GDAL-WASM — no server required</p>
   </section>
 
-<section>
+<!-- <section>
   <h3>🌐 Scientific Edge: GDAL in the Browser</h3>
   <ul>
     <li class="fragment"><strong>Raster reprojection</strong> & CRS transformations</li>
@@ -56,4 +56,4 @@
     <li class="fragment">Fully client-side & offline-capable</li>
     <li class="fragment">Ideal for environmental science, urban planning, and climate research</li>
   </ul>
-</section>
+</section> -->
