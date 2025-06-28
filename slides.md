@@ -246,8 +246,13 @@
   </section>
 
   <section>
-    <h3>Identify Panel</h3>
-  </section>
+  <h3>🔍 Identify Panel</h3>
+  <p class="fragment">
+    Click on features in the map to instantly inspect their attributes.
+  </p>
+  <video src="/video/jgis/jgis-identify.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+</section>
+
 
   <section>
     <h3>Time Slider</h3>
