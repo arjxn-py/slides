@@ -1,7 +1,22 @@
 <section>
-  <h2>JupyterGIS</h2>
-  <video src="/video/jgis/jgis.mp4" autoplay loop muted playsinline style="max-width: 80%; margin-top: 2rem;"></video>
+  <h2 style="text-transform: none;">
+    JupyterGIS
+    <img
+      src="images/jgis.png"
+      alt="JupyterGIS"
+      style="height: 1em; vertical-align: middle; margin-right: 0.3em;"
+    />
+  </h2>
+  <video
+    src="/video/jgis/jgis.mp4"
+    autoplay
+    loop
+    muted
+    playsinline
+    style="max-width: 80%; margin-top: 2rem;"
+  ></video>
 </section>
+
 
 <section>
   <h3>About JupyterGIS</h3>
