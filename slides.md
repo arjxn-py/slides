@@ -248,7 +248,19 @@
 </section>
 
 <section>
-  <h3>Embedded Lite Deployment</h3>
+  <h3 style="text-transform: none; margin-bottom: 1rem;">JupyterCAD in Action</h3>
+
+  <iframe
+    src="https://jupytercad.github.io/JupyterCAD/lab/index.html"
+    style="
+      border: none;
+      width: 100vw;
+      height: 90vh;
+      zoom: 0.75;
+      transform: scale(1);
+      transform-origin: top left;
+    "
+  ></iframe>
 </section>
 
 
@@ -367,17 +379,25 @@
 </section> -->
 
 <section>
-  <h3>Embedded Lite Deployment</h3>
+  <h3 style="text-transform: none; margin-bottom: 1rem;">JupyterGIS in Action</h3>
+
+  <iframe
+    src="https://jupytergis.readthedocs.io/en/latest/lite/lab/"
+    style="
+      border: none;
+      width: 100vw;
+      height: 80vh;
+      zoom: 0.75;
+      transform: scale(1);
+      transform-origin: top left;
+    "
+  ></iframe>
 </section>
 
 
 ---
 
-# Web Tech Under the Hood
-
----
-
-## Web Technologies Used
+## Web Tech Under the Hood
 
 - **WebAssembly (WASM)**
 - **PyCRDT + Y.js**

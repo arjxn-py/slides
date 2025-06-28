@@ -1,8 +1,4 @@
-# Web Tech Under the Hood
-
----
-
-## Web Technologies Used
+## Web Tech Under the Hood
 
 - **WebAssembly (WASM)**
 - **PyCRDT + Y.js**
