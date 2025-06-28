@@ -56,8 +56,12 @@
 
 
   <section>
-    <h3>QGIS Compatibility</h3>
-  </section>
+  <h3>🧩 QGIS Compatibility</h3>
+  <p class="fragment">
+    Import and export QGIS files, layers, and styles seamlessly.
+  </p>
+  <video src="/video/jgis/jgis-qgis.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+</section>
 
   <section>
     <h3>Annotation & collaboration</h3>
