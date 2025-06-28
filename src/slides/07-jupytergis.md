@@ -75,6 +75,7 @@
   <section>
     <h3>📓 Notebook + Python Integration</h3>
     <p class="fragment">Use Python code cells to add, style, and transform spatial layers</p>
+    <video src="/video/jgis/jgis-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
