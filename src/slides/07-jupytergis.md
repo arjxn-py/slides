@@ -47,8 +47,13 @@
 
 
   <section>
-    <h3>Time Slider</h3>
-  </section>
+  <h3>⏳ Time Slider</h3>
+  <p class="fragment">
+    Visualize how data changes over time with an interactive slider.
+  </p>
+  <video src="/video/jgis/jgis-timeslider.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+</section>
+
 
   <section>
     <h3>QGIS Compatibility</h3>
