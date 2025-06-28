@@ -81,6 +81,7 @@
   <section>
     <h3>🧪 Client-Side Processing</h3>
     <p class="fragment">Perform buffer, dissolve, centroid and overlays with GDAL-WASM — no server required</p>
+    <video src="/video/jgis/jgis-processing.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
 <!-- <section>
