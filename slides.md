@@ -272,8 +272,13 @@
 </section>
 
   <section>
-    <h3>Annotation & collaboration</h3>
-  </section>
+  <h3>📝 Annotation & Collaboration</h3>
+  <p class="fragment">
+    Add notes, draw shapes, and collaborate in real-time.
+  </p>
+  <video src="/video/jgis/jgis-annotation.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+</section>
+
 
   <section>
     <h3>📓 Notebook + Python Integration</h3>
@@ -281,7 +286,7 @@
   </section>
 
   <section>
-    <h3>🧪 Client-Side Analysis</h3>
+    <h3>🧪 Client-Side Processing</h3>
     <p class="fragment">Perform buffer, dissolve, centroid and overlays with GDAL-WASM — no server required</p>
   </section>
 
