@@ -6,6 +6,7 @@
 </div>
 <!-- .slide: data-transition="zoom" -->
 
+
 ---
 
 <!-- .slide: class="section-with-footer" -->
@@ -21,7 +22,7 @@
   <li>Multi-stakeholder projects with <strong>millions of users</strong></li>
   <li>Open source development <strong>for clients</strong></li>
   <li>Other topics: <strong>C++</strong>, scientific computing, WebAssembly, interactive applications</li>
-  <li>Animation of <strong>PyData</strong> community</li>
+  <li>Organizer of the <strong>Pydata Paris</strong> event</li>
 </ul>
 </div>
 
@@ -33,6 +34,7 @@
 </div>
 
 </div>
+
 
 ---
 
@@ -47,6 +49,7 @@
     <li style="font-size: 1.9rem">Advocate for high-performance scientific computing in the browser</li>
   </ul>
 </section>
+
 
 ---
 
@@ -80,6 +83,7 @@
   </ul>
 </section>
 
+
 ---
 
 <section>
@@ -101,6 +105,7 @@
     <li class="fragment">Transparent execution history and outputs enable <strong>auditability</strong></li>
   </ul>
 </section>
+
 
 ---
 
@@ -198,6 +203,7 @@
   <h3>Embedded Lite Deployment</h3>
 </section>
 
+
 ---
 
 <section>
@@ -280,6 +286,7 @@
   <h3>Embedded Lite Deployment</h3>
 </section>
 
+
 ---
 
 # Web Tech Under the Hood
@@ -304,6 +311,7 @@
   - Voila
   - JupyterLite
 
+
 ---
 
 # Use Cases
@@ -326,6 +334,7 @@
 2. Pollution layer overlays + AQI data (JupyterGIS)
 3. Satellite image analysis workflows (GDAL in-browser)
 4. Collaborative geo-tagged design notebooks for civic planning
+
 
 ---
 

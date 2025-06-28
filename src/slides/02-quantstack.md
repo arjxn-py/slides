@@ -11,7 +11,7 @@
   <li>Multi-stakeholder projects with <strong>millions of users</strong></li>
   <li>Open source development <strong>for clients</strong></li>
   <li>Other topics: <strong>C++</strong>, scientific computing, WebAssembly, interactive applications</li>
-  <li>Animation of <strong>PyData</strong> community</li>
+  <li>Organizer of the <strong>Pydata Paris</strong> event</li>
 </ul>
 </div>
 
