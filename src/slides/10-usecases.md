@@ -1,14 +1,15 @@
 <section style="position: relative; overflow: hidden;">
   <div style="position: relative; opacity: 1; z-index: 1;">
-    <h2 style="text-transform: none;">Who is this for?</h2>
-    <ul>
-      <li class="fragment">🏛️ Research teams</li>
-      <li class="fragment">🏙️ Urban planners</li>
-      <li class="fragment">🧑‍🏫 Educators</li>
-      <li class="fragment">🌿 Environmental scientists</li>
-      <!-- <li class="fragment">👩‍💻 Open-source contributors</li> -->
-    </ul>
-  </div>
+  <h2 style="text-transform: none;">Who is this for?</h2>
+  <ul>
+    <li class="fragment">🧑‍🔬 Research teams working with spatial or geometric data</li>
+    <li class="fragment">🛠️ Engineers & designers building parametric CAD models</li>
+    <li class="fragment">🏗️ Educators teaching 3D modeling or spatial analysis</li>
+    <li class="fragment">🏙️ Urban planners and architects</li>
+    <li class="fragment">🌿 Environmental scientists</li>
+    <!-- <li class="fragment">👩‍💻 Open-source contributors</li> -->
+  </ul>
+</div>
 
   <img
     src="images/astronaut-on-a-rocket.webp"
