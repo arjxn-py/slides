@@ -103,7 +103,20 @@
 </section>
 
 <section>
-  <h3 style="text-transform: none; margin-bottom: 1rem;">JupyterCAD in Action</h3>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://jupytercad.github.io/JupyterCAD/lab/index.html"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">JupyterCAD in Action</h3>
+      <img
+        src="/images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 60px; object-fit: contain;"
+      />
+    </a>
+  </div>
 
   <iframe
     src="https://jupytercad.github.io/JupyterCAD/lab/index.html"
@@ -117,3 +130,4 @@
     "
   ></iframe>
 </section>
+
