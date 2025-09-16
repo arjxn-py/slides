@@ -8,7 +8,7 @@
     />
   </h2>
   <video
-    src="/video/jgis/jgis.mp4"
+    src="video/jgis/jgis.mp4"
     autoplay
     loop
     muted
@@ -31,25 +31,25 @@
   <section>
     <h3>🗺️ Vector & Raster Data Support</h3>
     <p class="fragment" style="font-size: 1.9rem">Load local and cloud-hosted data into your notebook session</p>
-    <video src="/video/jgis/jgis-layers.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-layers.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
     <h3>🖍️ Vector Symbology</h3>
     <p class="fragment">Visualize vector data using <strong>graduated</strong> and <strong>categorized</strong> rendering styles</p>
-    <video src="/video/jgis/jgis-vector-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-vector-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
     <h3>🖍️ Raster Symbology</h3>
     <p class="fragment">Use <strong>multiband rendering</strong> to style raster datasets like satellite imagery</p>
-    <video src="/video/jgis/jgis-raster-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-raster-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
     <h3>🔄 Dynamic Layer Management</h3>
     <p class="fragment">Add, remove, and style layers with a built-in interactive UI</p>
-    <video src="/video/jgis/jgis-layer-management.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-layer-management.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
@@ -57,7 +57,7 @@
   <p class="fragment">
     Click on features in the map to instantly inspect their attributes.
   </p>
-  <video src="/video/jgis/jgis-identify.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jgis/jgis-identify.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 
@@ -66,7 +66,7 @@
   <p class="fragment">
     Visualize how data changes over time with an interactive slider.
   </p>
-  <video src="/video/jgis/jgis-timeslider.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jgis/jgis-timeslider.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 
@@ -75,7 +75,7 @@
   <p class="fragment">
     Import and export QGIS files, layers, and styles seamlessly.
   </p>
-  <video src="/video/jgis/jgis-qgis.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jgis/jgis-qgis.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
   <section>
@@ -83,20 +83,20 @@
   <p class="fragment">
     Add notes, draw shapes, and collaborate in real-time.
   </p>
-  <video src="/video/jgis/jgis-annotation.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jgis/jgis-annotation.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 
   <section>
     <h3>📓 Notebook + Python Integration</h3>
     <p class="fragment">Use Python code cells to add, style, and transform spatial layers</p>
-    <video src="/video/jgis/jgis-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
     <h3>🧪 Client-Side Processing</h3>
     <p class="fragment">Perform buffer, dissolve, centroid and overlays with GDAL-WASM — no server required</p>
-    <video src="/video/jgis/jgis-processing.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-processing.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
 <!-- <section>
@@ -119,7 +119,7 @@
     >
       <h3 style="text-transform: none; margin: 0;">JupyterGIS in Action</h3>
       <img
-        src="/images/jgis.png"
+        src="images/jgis.png"
         alt="JupyterGIS Logo"
         style="height: 60px; object-fit: contain;"
       />

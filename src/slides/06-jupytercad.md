@@ -8,7 +8,7 @@
     />
   </h2>
   <video
-    src="/video/jcad/jcad.mp4"
+    src="video/jcad/jcad.mp4"
     autoplay
     loop
     muted
@@ -31,49 +31,49 @@
 <section>
   <h3>Sketch-based Modeling</h3>
   <p class="fragment">Draw 2D sketches and turn them into 3D shapes</p>
-  <video src="/video/jcad/jcad-sketch.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-sketch.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <h3>Boolean Operations</h3>
   <p class="fragment">Cut, union, and intersect shapes with precision</p>
-  <video src="/video/jcad/jcad-cut.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-cut.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <h3>Geometric Operations</h3>
   <p class="fragment">Chamfer and fillet edges using UI or Python</p>
-  <video src="/video/jcad/jcad-chamfer.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-chamfer.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <h3>Multiple Visualization Modes</h3>
   <p class="fragment" style="font-size: 1.9rem;">Explore models with <strong>Exploded View</strong>, <strong>Clip Plane</strong>, and <strong>Wireframe</strong></p>
-  <video src="/video/jcad/jcad-views.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1.5rem; border: 1px solid #ccc;"></video>
+  <video src="video/jcad/jcad-views.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1.5rem; border: 1px solid #ccc;"></video>
 </section>
 
 <section>
   <p><strong>🎛️ Transform controls with snapping</strong></p>
   <p class="fragment">Precise geometric manipulation in the browser</p>
-  <video src="/video/jcad/jcad-transform.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-transform.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>🧮 Python API for programmatic geometry</strong></p>
   <p class="fragment">Write Python code to generate & modify shapes</p>
-  <video src="/video/jcad/jcad-console.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-console.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>📓 Notebook integration</strong></p>
   <p class="fragment">CAD alongside your code & documentation</p>
-  <video src="/video/jcad/jcad-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>🤝 Collaborative editing</strong></p>
   <p class="fragment" style="font-size: 1.9rem">CRDT-based real-time co-editing via Y.js & PyCRDT</p>
-  <video src="/video/jcad/jcad-collaborative.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-collaborative.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
@@ -87,7 +87,7 @@
   <p class="fragment" style="font-size: 1rem">
     Enables asynchronous review cycles, just like pull requests in code!
   </p>
-  <video src="/video/jcad/jcad-suggestions.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-suggestions.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
@@ -111,7 +111,7 @@
     >
       <h3 style="text-transform: none; margin: 0;">JupyterCAD in Action</h3>
       <img
-        src="/images/jcad.png"
+        src="images/jcad.png"
         alt="JupyterCAD Logo"
         style="height: 60px; object-fit: contain;"
       />
