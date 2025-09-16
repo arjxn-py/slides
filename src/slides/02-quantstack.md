@@ -2,7 +2,7 @@
 
 <!-- Logo heading replacement -->
 <div style="text-align: center; margin: 0.5rem 0 1rem;">
-  <img src="/images/logo-qs.svg" alt="QuantStack Logo" style="height: 5rem; max-width: 100%;" />
+  <img src="images/logo-qs.svg" alt="QuantStack Logo" style="height: 5rem; max-width: 100%;" />
 </div>
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; font-size: 0.6em; line-height: 1.4;">
@@ -19,7 +19,7 @@
   </div>
 
   <div style="flex: 1; text-align: center; min-width: 280px;">
-    <img src="/images/team.png" alt="QuantStack Team" style="width: 90%; max-width: 300px; height: auto; border-radius: 8px;" />
+    <img src="images/team.png" alt="QuantStack Team" style="width: 90%; max-width: 300px; height: auto; border-radius: 8px;" />
     <p style="font-style: italic; margin-top: 0.5em;">
       Empowering scientists and developers worldwide with cutting-edge tools
     </p>
