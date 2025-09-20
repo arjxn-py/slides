@@ -1,39 +1,49 @@
+<!-- Slide 1: Hook / Pain -->
 <section>
-  <h2>The Current Problem</h2>
-
-  <div style="position: relative;">
-    <div style="z-index: 2; position: relative;">
-      <ul>
-        <li class="fragment">Tools like <strong>FreeCAD</strong>, <strong>QGIS</strong>, and <strong>ArcGIS</strong>:</li>
-        <ul>
-          <li class="fragment">Are powerful, but have steep learning curves</li>
-          <li class="fragment">Require complex setups and system dependencies</li>
-          <li class="fragment">Are difficult to integrate into modern, code-first workflows</li>
-        </ul>
-      </ul>
-    </div>
-    <img
-      src="images/astronaut-pushing-rock.webp"
-      alt="Astronaut pushing rock"
-      style="position: absolute; right: 0; bottom: 0; max-height: 80%; opacity: 0.3; z-index: 1; pointer-events: none;"
-    />
+  <h2>Ever tried sharing a CAD or GIS workflow with teammates?</h2>
+  <p class="fragment">Most tools live in <strong>desktop silos</strong> and break reproducibility.</p>
+  <p class="fragment">And their <strong>complex interfaces</strong> are packed with endless buttons & menus.</p>
+  <div class="fragment" style="margin-top: 1rem;">
+    <img src="images/astronaut-with-a-surprise.webp" 
+         alt="Frustrated astronaut" 
+         style="max-height: 60vh; border-radius: 8px; opacity: 0.9;" />
   </div>
 </section>
 
+<!-- Slide 2: Visual Meme / Contrast -->
 <section>
-  <h2>Team Challenges</h2>
-  <ul>
-    <li class="fragment">Workflows trapped in <strong>proprietary formats</strong> or desktop silos</li>
-    <li class="fragment">Limited ability to <strong>track changes, collaborate, or reproduce results</strong></li>
-    <li class="fragment">A disconnect between <strong>data science</strong> and <strong>spatial modeling</strong></li>
-  </ul>
+  <div style="display: flex; gap: 2rem; align-items: center; justify-content: center;">
+    <div style="flex: 1; text-align: center;">
+      <h3 style="color: #e74c3c;">🚨 Traditional Desktop Tools</h3>
+      <img src="images/qgis-install-error.png" alt="Install error screenshot"
+           style="max-width: 100%; max-height: 45vh; border: 2px solid #e74c3c; border-radius: 6px;" />
+      <p style="font-size: 0.9em; color: #aaa; margin-top: 0.5rem;">
+        GB-sized installs, plugins, version mismatches, <br/> cluttered UI with hundreds of buttons
+      </p>
+    </div>
+    <div style="flex: 1; text-align: center;">
+      <h3 style="color: #27ae60;">✅ Browser-Native</h3>
+      <img src="images/jgis.png" alt="Browser-based GIS" 
+           style="max-width: 100%; max-height: 45vh; border: 2px solid #27ae60; border-radius: 6px;" />
+      <p style="font-size: 0.9em; color: #aaa; margin-top: 0.5rem;">
+        Open a link → clean, minimal UI, <br/> CAD/GIS ready, collaborative, reproducible
+      </p>
+    </div>
+  </div>
 </section>
 
+<!-- Slide 3: Solution Intro -->
 <section>
-  <h2>What We Need</h2>
-  <ul>
-    <li class="fragment"><strong>Seamless integration</strong> with computational notebooks</li>
-    <li class="fragment">Tools that work <strong>anywhere, without installs</strong></li>
-    <li class="fragment"><strong>Open, interoperable environments</strong> built for modern research</li>
-  </ul>
+  <h2>CAD & GIS in the Browser</h2>
+  <p class="fragment">
+    Introducing <strong>JupyterCAD</strong> & <strong>JupyterGIS</strong> — open-source extensions for <strong>spatial computing</strong> in Jupyter.
+  </p>
+  <p class="fragment">
+    Powered by <strong>WebAssembly</strong> + <strong>Jupyter</strong> CRDTs → runs anywhere, works with any kernel, zero installs.
+  </p>
+  <div class="fragment" style="margin-top: 1rem;">
+    <img src="images/jupyterlite.png" alt="JupyterLite" style="height: 3rem; margin-right: 1rem;" />
+    <img src="images/jcad.png" alt="JupyterCAD" style="height: 3rem; margin-right: 1rem;" />
+    <img src="images/jgis.png" alt="JupyterGIS" style="height: 3rem;" />
+  </div>
 </section>
