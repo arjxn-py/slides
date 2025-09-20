@@ -15,7 +15,7 @@
   <div style="display: flex; gap: 2rem; align-items: flex-start; justify-content: center;">
     <div style="flex: 1; text-align: center;">
       <h3 style="color: #e74c3c;">🚨 Desktop Tools</h3>
-      <img src="images/qgis-install-error.png" alt="Install error screenshot"
+      <img src="images/qgis-error.png" alt="Install error screenshot"
            style="max-width: 100%; max-height: 40vh; border: 2px solid #e74c3c; border-radius: 6px;" />
       <p style="font-size: 0.9em; color: #aaa; margin-top: 0.5rem;">
         GB-sized installs • plugin hell • version mismatches
@@ -36,7 +36,7 @@
 <section>
   <h2>CAD & GIS in the Browser</h2>
   <p class="fragment">
-    <strong>JupyterCAD</strong> + <strong>JupyterGIS</strong> → spatial computing inside Jupyter
+    <strong>JupyterCAD</strong> + <strong>JupyterGIS</strong> → CAD & spatial computing inside Jupyter
   </p>
   <p class="fragment">
     Powered by <strong>WebAssembly</strong> + <strong>Jupyter CRDTs</strong> → runs anywhere, any kernel, zero installs

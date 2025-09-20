@@ -88,7 +88,7 @@
   <div style="display: flex; gap: 2rem; align-items: flex-start; justify-content: center;">
     <div style="flex: 1; text-align: center;">
       <h3 style="color: #e74c3c;">🚨 Desktop Tools</h3>
-      <img src="images/qgis-install-error.png" alt="Install error screenshot"
+      <img src="images/qgis-error.png" alt="Install error screenshot"
            style="max-width: 100%; max-height: 40vh; border: 2px solid #e74c3c; border-radius: 6px;" />
       <p style="font-size: 0.9em; color: #aaa; margin-top: 0.5rem;">
         GB-sized installs • plugin hell • version mismatches
@@ -109,7 +109,7 @@
 <section>
   <h2>CAD & GIS in the Browser</h2>
   <p class="fragment">
-    <strong>JupyterCAD</strong> + <strong>JupyterGIS</strong> → spatial computing inside Jupyter
+    <strong>JupyterCAD</strong> + <strong>JupyterGIS</strong> → CAD & spatial computing inside Jupyter
   </p>
   <p class="fragment">
     Powered by <strong>WebAssembly</strong> + <strong>Jupyter CRDTs</strong> → runs anywhere, any kernel, zero installs
@@ -481,45 +481,77 @@
 
 ---
 
-<section style="position: relative; overflow: hidden;">
-  <div style="position: relative; opacity: 1; z-index: 1;">
-  <h2 style="text-transform: none;">Who is this for?</h2>
-  <ul>
-    <li class="fragment">🧑‍🔬 Research teams working with spatial or geometric data</li>
-    <li class="fragment">🛠️ Engineers & designers building parametric CAD models</li>
-    <li class="fragment">🏗️ Educators teaching 3D modeling or spatial analysis</li>
-    <li class="fragment">🏙️ Urban planners and architects</li>
-    <li class="fragment">🌿 Environmental scientists</li>
-    <!-- <li class="fragment">👩‍💻 Open-source contributors</li> -->
-  </ul>
-</div>
-
-  <img
-    src="images/astronaut-on-a-rocket.webp"
-    alt="astronaut rocket"
-    style="
-      position: absolute;
-      bottom: -20px;
-      right: -10px;
-      max-height: 90%;
-      opacity: 0.3;
-      pointer-events: none;
-      z-index: 0;
-    "
-  />
-</section>
-
-<!--
+<!-- Slide 6: S — Science -->
 <section>
-  <h2 style="text-transform: none;">Real-World Use Cases</h2>
-  <ol>
-    <li class="fragment">Parametric parts for 3D printing (JupyterCAD)</li>
-    <li class="fragment">Pollution layer overlays + AQI data (JupyterGIS)</li>
-    <li class="fragment">Satellite image analysis workflows (GDAL in-browser)</li>
-    <li class="fragment">Collaborative geo-tagged design notebooks for civic planning</li>
-  </ol>
+  <h2 style="color:#3498db;">S — Science</h2>
+  <div style="display: flex; gap: 2rem; align-items: center;">
+    <div style="flex: 1;">
+      <ul>
+        <li class="fragment">Environmental science: <strong>climate & land use analysis</strong></li>
+        <li class="fragment">Geoscience: map <strong>seismic or hydrology data</strong></li>
+        <li class="fragment">Reproducible workflows → share datasets + analysis as one notebook</li>
+      </ul>
+    </div>
+    <div style="flex: 1; text-align: center;">
+      <img src="images/climate-map.png" alt="Climate data visualization"
+           style="max-height: 45vh; border-radius: 8px; border: 2px solid #3498db;" />
+    </div>
+  </div>
 </section>
--->
+
+<!-- Slide 7: T — Technology -->
+<section>
+  <h2 style="color:#9b59b6;">T — Technology</h2>
+  <div style="display: flex; gap: 2rem; align-items: center;">
+    <div style="flex: 1;">
+      <ul>
+        <li class="fragment">Browser-native <strong>CAD/GIS platforms</strong> for R&D</li>
+        <li class="fragment">Run <strong>legacy scientific code</strong> with WebAssembly</li>
+        <li class="fragment">Prototype & share <strong>interactive spatial apps</strong></li>
+      </ul>
+    </div>
+    <div style="flex: 1; text-align: center;">
+      <img src="images/wasm-demo.png" alt="WASM workflow"
+           style="max-height: 45vh; border-radius: 8px; border: 2px solid #9b59b6;" />
+    </div>
+  </div>
+</section>
+
+<!-- Slide 8: E — Engineering -->
+<section>
+  <h2 style="color:#e67e22;">E — Engineering</h2>
+  <div style="display: flex; gap: 2rem; align-items: center;">
+    <div style="flex: 1;">
+      <ul>
+        <li class="fragment">Parametric design → <strong>reproducible CAD models</strong> in papers</li>
+        <li class="fragment">Collaborative <strong>mechanical design reviews</strong> in the browser</li>
+        <li class="fragment">Integrate CAD with <strong>simulation notebooks</strong></li>
+      </ul>
+    </div>
+    <div style="flex: 1; text-align: center;">
+      <img src="images/parametric-cad.png" alt="Parametric CAD"
+           style="max-height: 45vh; border-radius: 8px; border: 2px solid #e67e22;" />
+    </div>
+  </div>
+</section>
+
+<!-- Slide 9: M — Mathematics & Education -->
+<section>
+  <h2 style="color:#2ecc71;">M — Mathematics & Education</h2>
+  <div style="display: flex; gap: 2rem; align-items: center;">
+    <div style="flex: 1;">
+      <ul>
+        <li class="fragment"><strong>Teach CAD/GIS</strong> without installs or licenses</li>
+        <li class="fragment">Students explore <strong>geometry + geospatial data</strong> interactively</li>
+        <li class="fragment">Notebook = <strong>textbook + lab + code</strong> all in one</li>
+      </ul>
+    </div>
+    <div style="flex: 1; text-align: center;">
+      <img src="images/edu-gis.png" alt="Education GIS"
+           style="max-height: 45vh; border-radius: 8px; border: 2px solid #2ecc71;" />
+    </div>
+  </div>
+</section>
 
 
 ---
