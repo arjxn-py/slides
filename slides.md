@@ -30,7 +30,7 @@
 
 <!-- Logo heading replacement -->
 <div style="text-align: center; margin: 0.5rem 0 1rem;">
-  <img src="/images/logo-qs.svg" alt="QuantStack Logo" style="height: 5rem; max-width: 100%;" />
+  <img src="images/logo-qs.svg" alt="QuantStack Logo" style="height: 5rem; max-width: 100%;" />
 </div>
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; font-size: 0.6em; line-height: 1.4;">
@@ -47,7 +47,7 @@
   </div>
 
   <div style="flex: 1; text-align: center; min-width: 280px;">
-    <img src="/images/team.png" alt="QuantStack Team" style="width: 90%; max-width: 300px; height: auto; border-radius: 8px;" />
+    <img src="images/team.png" alt="QuantStack Team" style="width: 90%; max-width: 300px; height: auto; border-radius: 8px;" />
     <p style="font-style: italic; margin-top: 0.5em;">
       Empowering scientists and developers worldwide with cutting-edge tools
     </p>
@@ -58,7 +58,7 @@
 
 ---
 
-<section>
+<!-- <section>
   <h3>About My Mentor</h3>
   <div style="font-size: 0.9em; line-height: 1.5;">
     <p><strong>Martin Renou</strong> — Technical Director at <strong>QuantStack</strong></p>
@@ -66,83 +66,95 @@
       <strong>Martin Renou</strong> is also a maintainer of <strong>Project Jupyter</strong>. He is a core contributor to the <strong>ipywidgets</strong> ecosystem and maintains several widget libraries including <strong>ipyleaflet</strong>, <strong>ipydatagrid</strong>, <strong>ipygany</strong>, <strong>ipycanvas</strong>, and <strong>bqplot</strong>. He co-created the <strong>Voilà</strong> dashboarding system and is the main author of the <strong>xeus-python</strong> kernel.
     </p>
   </div>
+</section> -->
+
+
+---
+
+<!-- Slide 1: Hook / Pain -->
+<section>
+  <h2>Sharing CAD & GIS workflows is painful</h2>
+  <p class="fragment"><strong>Locked in desktops</strong> → no reproducibility</p>
+  <p class="fragment"><strong>Complex UIs</strong> → steep learning curve</p>
+  <div class="fragment" style="margin-top: 1rem;">
+    <img src="images/astronaut-with-a-surprise.webp"
+         alt="Frustrated astronaut"
+         style="max-height: 60vh; border-radius: 8px; opacity: 0.9;" />
+  </div>
+</section>
+
+<!-- Slide 2: Visual Meme / Contrast -->
+<section>
+  <div style="display: flex; gap: 2rem; align-items: flex-start; justify-content: center;">
+    <div style="flex: 1; text-align: center;">
+      <h3 style="color: #e74c3c;">🚨 Desktop Tools</h3>
+      <img src="images/qgis-install-error.png" alt="Install error screenshot"
+           style="max-width: 100%; max-height: 40vh; border: 2px solid #e74c3c; border-radius: 6px;" />
+      <p style="font-size: 0.9em; color: #aaa; margin-top: 0.5rem;">
+        GB-sized installs • plugin hell • version mismatches
+      </p>
+    </div>
+    <div style="flex: 1; text-align: center;">
+      <h3 style="color: #27ae60;">✅ Browser-Native</h3>
+      <img src="images/jgis.png" alt="Browser-based GIS"
+           style="max-width: 100%; max-height: 40vh; border: 2px solid #27ae60; border-radius: 6px;" />
+      <p style="font-size: 0.9em; color: #aaa; margin-top: 0.5rem;">
+        Open a link • clean UI • collaborative & reproducible
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 3: Solution Intro -->
+<section>
+  <h2>CAD & GIS in the Browser</h2>
+  <p class="fragment">
+    <strong>JupyterCAD</strong> + <strong>JupyterGIS</strong> → spatial computing inside Jupyter
+  </p>
+  <p class="fragment">
+    Powered by <strong>WebAssembly</strong> + <strong>Jupyter CRDTs</strong> → runs anywhere, any kernel, zero installs
+  </p>
+  <div class="fragment" style="margin-top: 1rem; display: flex; gap: 1rem; justify-content: center;">
+    <img src="images/jupyterlite.png" alt="JupyterLite" style="height: 3rem;" />
+    <img src="images/jcad.png" alt="JupyterCAD" style="height: 3rem;" />
+    <img src="images/jgis.png" alt="JupyterGIS" style="height: 3rem;" />
+  </div>
 </section>
 
 
 ---
 
+<!-- Slide 4: Why This Matters Beyond CAD/GIS -->
 <section>
-  <h2>The Current Problem</h2>
-
-  <div style="position: relative;">
-    <div style="z-index: 2; position: relative;">
-      <ul>
-        <li class="fragment">Tools like <strong>FreeCAD</strong>, <strong>QGIS</strong>, and <strong>ArcGIS</strong>:</li>
-        <ul>
-          <li class="fragment">Are powerful, but have steep learning curves</li>
-          <li class="fragment">Require complex setups and system dependencies</li>
-          <li class="fragment">Are difficult to integrate into modern, code-first workflows</li>
-        </ul>
-      </ul>
-    </div>
-    <img
-      src="images/astronaut-pushing-rock.webp"
-      alt="Astronaut pushing rock"
-      style="position: absolute; right: 0; bottom: 0; max-height: 80%; opacity: 0.3; z-index: 1; pointer-events: none;"
-    />
+  <h2>Why This Matters Beyond CAD/GIS</h2>
+  <ul>
+    <li class="fragment"><strong>Open science</strong> → results must be shareable, transparent, reproducible</li>
+    <li class="fragment">Desktop-first workflows → <strong>fragile installs</strong>, version mismatches, locked machines</li>
+    <li class="fragment">Closed GUIs hide <strong>computational steps</strong> → no audit trail, hard to verify</li>
+    <li class="fragment">Browser-native workflows → <strong>papers, datasets, and code</strong> all live together</li>
+  </ul>
+  <div class="fragment" style="margin-top: 1rem; text-align: right;">
+    <img src="images/astronaut-flying.webp" 
+         alt="Open science astronaut" 
+         style="max-height: 50vh; border-radius: 6px; opacity: 0.7;" />
   </div>
 </section>
 
+<!-- Slide 5: Browser + WASM = New Paradigm -->
 <section>
-  <h2>Team Challenges</h2>
+  <h2>The Browser + WASM = A New Paradigm</h2>
   <ul>
-    <li class="fragment">Workflows trapped in <strong>proprietary formats</strong> or desktop silos</li>
-    <li class="fragment">Limited ability to <strong>track changes, collaborate, or reproduce results</strong></li>
-    <li class="fragment">A disconnect between <strong>data science</strong> and <strong>spatial modeling</strong></li>
+    <li class="fragment"><strong>The browser is the universal runtime</strong> — works on any device</li>
+    <li class="fragment"><strong>WebAssembly (WASM)</strong> runs C/C++/Fortran scientific libraries natively in-browser</li>
+    <li class="fragment">Beyond CAD/GIS → <strong>climate models, genomics, finite element analysis</strong> in a notebook</li>
+    <li class="fragment">Language-agnostic → integrates with <strong>Python, R, Julia, JavaScript, C++</strong></li>
+    <li class="fragment">New research workflows → share a notebook link, reproduce the full pipeline</li>
   </ul>
-</section>
-
-<section>
-  <h2>What We Need</h2>
-  <ul>
-    <li class="fragment"><strong>Seamless integration</strong> with computational notebooks</li>
-    <li class="fragment">Tools that work <strong>anywhere, without installs</strong></li>
-    <li class="fragment"><strong>Open, interoperable environments</strong> built for modern research</li>
-  </ul>
-</section>
-
-
----
-
-<section>
-  <h2>Why Jupyter?</h2>
-
-  <div style="position: relative;">
-    <div style="z-index: 2; position: relative;">
-      <ul>
-        <li class="fragment">Scientific computing is increasingly moving to the <strong>browser</strong></li>
-        <li class="fragment"><strong>CAD</strong> and <strong>GIS</strong> tools are still mostly tied to heavy <strong>desktop applications</strong></li>
-        <li class="fragment"><strong>Jupyter</strong> has become the central hub for <strong>reproducible research</strong></li>
-      </ul>
-    </div>
-    <img
-      src="images/astronaut-with-a-surprise.webp"
-      alt="Astronaut with a surprise"
-      style="position: absolute; right: 0; bottom: 0; max-height: 80%; opacity: 0.3; z-index: 1; pointer-events: none;"
-    />
+  <div class="fragment" style="margin-top: 1rem; text-align: center;">
+    <img src="images/jupyterlite.png" alt="JupyterLite logo" style="height: 3rem; margin-right: 1rem;" />
+    <img src="images/astronaut-victory.webp" alt="Astronaut victory" 
+         style="max-height: 40vh; border-radius: 6px; opacity: 0.85;" />
   </div>
-</section>
-
-
-<section>
-  <h2>Jupyter Strengths</h2>
-  <ul>
-    <li class="fragment">Combines <strong>code, visualizations, and documentation</strong> in one place</li>
-    <li class="fragment">Supports <strong>interactive computing</strong> — essential for spatial data exploration</li>
-    <li class="fragment">Built-in collaboration via <strong>notebooks, Git, and cloud platforms</strong></li>
-    <li class="fragment">Integrates with <strong>Python, C++, Julia, R, and WebAssembly</strong></li>
-    <li class="fragment">Transparent execution history and outputs enable <strong>auditability</strong></li>
-  </ul>
 </section>
 
 
@@ -158,7 +170,7 @@
     />
   </h2>
   <video
-    src="/video/jcad/jcad.mp4"
+    src="video/jcad/jcad.mp4"
     autoplay
     loop
     muted
@@ -181,49 +193,49 @@
 <section>
   <h3>Sketch-based Modeling</h3>
   <p class="fragment">Draw 2D sketches and turn them into 3D shapes</p>
-  <video src="/video/jcad/jcad-sketch.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-sketch.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <h3>Boolean Operations</h3>
   <p class="fragment">Cut, union, and intersect shapes with precision</p>
-  <video src="/video/jcad/jcad-cut.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-cut.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <h3>Geometric Operations</h3>
   <p class="fragment">Chamfer and fillet edges using UI or Python</p>
-  <video src="/video/jcad/jcad-chamfer.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-chamfer.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <h3>Multiple Visualization Modes</h3>
   <p class="fragment" style="font-size: 1.9rem;">Explore models with <strong>Exploded View</strong>, <strong>Clip Plane</strong>, and <strong>Wireframe</strong></p>
-  <video src="/video/jcad/jcad-views.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1.5rem; border: 1px solid #ccc;"></video>
+  <video src="video/jcad/jcad-views.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1.5rem; border: 1px solid #ccc;"></video>
 </section>
 
 <section>
   <p><strong>🎛️ Transform controls with snapping</strong></p>
   <p class="fragment">Precise geometric manipulation in the browser</p>
-  <video src="/video/jcad/jcad-transform.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-transform.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>🧮 Python API for programmatic geometry</strong></p>
   <p class="fragment">Write Python code to generate & modify shapes</p>
-  <video src="/video/jcad/jcad-console.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-console.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>📓 Notebook integration</strong></p>
   <p class="fragment">CAD alongside your code & documentation</p>
-  <video src="/video/jcad/jcad-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>🤝 Collaborative editing</strong></p>
   <p class="fragment" style="font-size: 1.9rem">CRDT-based real-time co-editing via Y.js & PyCRDT</p>
-  <video src="/video/jcad/jcad-collaborative.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-collaborative.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
@@ -237,7 +249,7 @@
   <p class="fragment" style="font-size: 1rem">
     Enables asynchronous review cycles, just like pull requests in code!
   </p>
-  <video src="/video/jcad/jcad-suggestions.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jcad/jcad-suggestions.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
@@ -261,7 +273,7 @@
     >
       <h3 style="text-transform: none; margin: 0;">JupyterCAD in Action</h3>
       <img
-        src="/images/jcad.png"
+        src="images/jcad.png"
         alt="JupyterCAD Logo"
         style="height: 60px; object-fit: contain;"
       />
@@ -295,7 +307,7 @@
     />
   </h2>
   <video
-    src="/video/jgis/jgis.mp4"
+    src="video/jgis/jgis.mp4"
     autoplay
     loop
     muted
@@ -318,25 +330,25 @@
   <section>
     <h3>🗺️ Vector & Raster Data Support</h3>
     <p class="fragment" style="font-size: 1.9rem">Load local and cloud-hosted data into your notebook session</p>
-    <video src="/video/jgis/jgis-layers.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-layers.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
     <h3>🖍️ Vector Symbology</h3>
     <p class="fragment">Visualize vector data using <strong>graduated</strong> and <strong>categorized</strong> rendering styles</p>
-    <video src="/video/jgis/jgis-vector-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-vector-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
     <h3>🖍️ Raster Symbology</h3>
     <p class="fragment">Use <strong>multiband rendering</strong> to style raster datasets like satellite imagery</p>
-    <video src="/video/jgis/jgis-raster-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-raster-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
     <h3>🔄 Dynamic Layer Management</h3>
     <p class="fragment">Add, remove, and style layers with a built-in interactive UI</p>
-    <video src="/video/jgis/jgis-layer-management.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-layer-management.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
@@ -344,7 +356,7 @@
   <p class="fragment">
     Click on features in the map to instantly inspect their attributes.
   </p>
-  <video src="/video/jgis/jgis-identify.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jgis/jgis-identify.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 
@@ -353,7 +365,7 @@
   <p class="fragment">
     Visualize how data changes over time with an interactive slider.
   </p>
-  <video src="/video/jgis/jgis-timeslider.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jgis/jgis-timeslider.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 
@@ -362,7 +374,7 @@
   <p class="fragment">
     Import and export QGIS files, layers, and styles seamlessly.
   </p>
-  <video src="/video/jgis/jgis-qgis.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jgis/jgis-qgis.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
   <section>
@@ -370,20 +382,20 @@
   <p class="fragment">
     Add notes, draw shapes, and collaborate in real-time.
   </p>
-  <video src="/video/jgis/jgis-annotation.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <video src="video/jgis/jgis-annotation.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 
   <section>
     <h3>📓 Notebook + Python Integration</h3>
     <p class="fragment">Use Python code cells to add, style, and transform spatial layers</p>
-    <video src="/video/jgis/jgis-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
   <section>
     <h3>🧪 Client-Side Processing</h3>
     <p class="fragment">Perform buffer, dissolve, centroid and overlays with GDAL-WASM — no server required</p>
-    <video src="/video/jgis/jgis-processing.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+    <video src="video/jgis/jgis-processing.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
   </section>
 
 <!-- <section>
@@ -406,7 +418,7 @@
     >
       <h3 style="text-transform: none; margin: 0;">JupyterGIS in Action</h3>
       <img
-        src="/images/jgis.png"
+        src="images/jgis.png"
         alt="JupyterGIS Logo"
         style="height: 60px; object-fit: contain;"
       />
