@@ -28,45 +28,202 @@
 </section>
 
 <!-- Vertical stack for features -->
-  <section>
-    <h3>🗺️ Vector & Raster Data Support</h3>
-    <p class="fragment" style="font-size: 1.9rem">Load local and cloud-hosted data into your notebook session</p>
-    <video src="video/jgis/jgis-layers.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
+<section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AVector-Raster.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🗺️ Vector & Raster Data Support</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
 
-  <section>
-    <h3>🖍️ Vector Symbology</h3>
-    <p class="fragment">Visualize vector data using <strong>graduated</strong> and <strong>categorized</strong> rendering styles</p>
-    <video src="video/jgis/jgis-vector-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
-
-  <section>
-    <h3>🖍️ Raster Symbology</h3>
-    <p class="fragment">Use <strong>multiband rendering</strong> to style raster datasets like satellite imagery</p>
-    <video src="video/jgis/jgis-raster-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
-
-  <section>
-    <h3>🔄 Dynamic Layer Management</h3>
-    <p class="fragment">Add, remove, and style layers with a built-in interactive UI</p>
-    <video src="video/jgis/jgis-layer-management.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
-
-  <section>
-  <h3>🔍 Identify Panel</h3>
-  <p class="fragment">
-    Click on features in the map to instantly inspect their attributes.
+  <p style="text-align: center; margin-bottom: 1rem; font-size: 1.9rem;">
+    Load local and cloud-hosted vector & raster data directly
   </p>
-  <video src="video/jgis/jgis-identify.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AVector-Raster.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
+
+<section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AVector-Symbology.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🖍️ Vector Symbology</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Vector data with <strong>advanced</strong> rendering styles
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AVector-Symbology.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 
   <section>
-  <h3>⏳ Time Slider</h3>
-  <p class="fragment">
-    Visualize how data changes over time with an interactive slider.
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ARaster-Symbology.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🖍️ Raster Symbology</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Use <strong>multiband rendering</strong> to style raster datasets
   </p>
-  <video src="video/jgis/jgis-timeslider.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ARaster-Symbology.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
+
+  <section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ADynamic-Management.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🔄 Dynamic Layer Management</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Add, remove, and style layers using interactive UI
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ADynamic-Management.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
+
+<section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AIdentify.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🔍 Identify Panel</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Click features on map to inspect their attributes
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AIdentify.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
+
+
+<section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ATime-Slider.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">⏳ Time Slider</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Visualize how data evolves over time
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ATime-Slider.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 
@@ -94,10 +251,37 @@
   </section>
 
   <section>
-    <h3>🧪 Client-Side Processing</h3>
-    <p class="fragment">Perform buffer, dissolve, centroid and overlays with GDAL-WASM — no server required</p>
-    <video src="video/jgis/jgis-processing.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AProcessing.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🧪 Client-Side Processing</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Perform processing operations with GDAL-WASM
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AProcessing.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
 
 <!-- <section>
   <h3>🌐 Scientific Edge: GDAL in the Browser</h3>

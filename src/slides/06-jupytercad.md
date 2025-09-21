@@ -1,20 +1,29 @@
 <section>
-  <h2 style="text-transform: none;">
-    JupyterCAD
-    <img
-      src="images/jcad.png"
-      alt="JupyterCAD"
-      style="height: 1em; vertical-align: middle; margin-right: 0.3em;"
-    />
-  </h2>
-  <video
-    src="video/jcad/jcad.mp4"
-    autoplay
-    loop
-    muted
-    playsinline
-    style="max-width: 80%; margin-top: 2rem;"
-  ></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACreate-Basic-Shapes.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: inherit;"
+    >
+      <h2 style="text-transform: none; margin: 0;">JupyterCAD</h2>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 1.5em; object-fit: contain; vertical-align: middle;"
+      />
+    </a>
+  </div>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACreate-Basic-Shapes.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
@@ -29,33 +38,163 @@
 
 <!-- Vertical stack for features -->
 <section>
-  <h3>Sketch-based Modeling</h3>
-  <p class="fragment">Draw 2D sketches and turn them into 3D shapes</p>
-  <video src="video/jcad/jcad-sketch.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ASketch.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">Sketch-based Modeling</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Draw 2D sketches and turn them into 3D shapes
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ASketch.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
-  <h3>Boolean Operations</h3>
-  <p class="fragment">Cut, union, and intersect shapes with precision</p>
-  <video src="video/jcad/jcad-cut.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AOperations.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">Boolean Operations</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Cut, union, and intersect shapes with precision
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AOperations.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
-  <h3>Geometric Operations</h3>
-  <p class="fragment">Chamfer and fillet edges using UI or Python</p>
-  <video src="video/jcad/jcad-chamfer.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACut-Example.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">Operations in Action</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Cutting a box with spheres to create a nice shape
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACut-Example.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
-  <h3>Multiple Visualization Modes</h3>
-  <p class="fragment" style="font-size: 1.9rem;">Explore models with <strong>Exploded View</strong>, <strong>Clip Plane</strong>, and <strong>Wireframe</strong></p>
-  <video src="video/jcad/jcad-views.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1.5rem; border: 1px solid #ccc;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AMultiple-Views.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">Multiple Visualization Modes</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem; font-size: 1.9rem;">
+    Switch between <strong>Exploded View</strong>, <strong>Clip Plane</strong>, and <strong>Wireframe</strong> to explore models in depth
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AMultiple-Views.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
-  <p><strong>🎛️ Transform controls with snapping</strong></p>
-  <p class="fragment">Precise geometric manipulation in the browser</p>
-  <video src="video/jcad/jcad-transform.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ATransform-Controls.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🎛️ Transform Controls with Snapping</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Move, rotate, and snap with precision
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ATransform-Controls.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
@@ -101,33 +240,3 @@
     Move between tools without friction — with support for common CAD formats.
   </p>
 </section>
-
-<section>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-    <a
-      href="https://jupytercad.github.io/JupyterCAD/lab/index.html"
-      target="_blank"
-      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
-    >
-      <h3 style="text-transform: none; margin: 0;">JupyterCAD in Action</h3>
-      <img
-        src="images/jcad.png"
-        alt="JupyterCAD Logo"
-        style="height: 60px; object-fit: contain;"
-      />
-    </a>
-  </div>
-
-  <iframe
-    src="https://jupytercad.github.io/JupyterCAD/lab/index.html"
-    style="
-      border: none;
-      width: 100vw;
-      height: 90vh;
-      zoom: 0.75;
-      transform: scale(1);
-      transform-origin: top left;
-    "
-  ></iframe>
-</section>
-

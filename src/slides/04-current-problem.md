@@ -3,11 +3,9 @@
   <h2>Sharing CAD & GIS workflows is painful</h2>
   <p class="fragment"><strong>Locked in desktops</strong> → no reproducibility</p>
   <p class="fragment"><strong>Complex UIs</strong> → steep learning curve</p>
-  <div class="fragment" style="margin-top: 1rem;">
-    <img src="images/astronaut-with-a-surprise.webp"
+    <img src="images/astronaut-pushing-rock.webp"
          alt="Frustrated astronaut"
          style="max-height: 60vh; border-radius: 8px; opacity: 0.9;" />
-  </div>
 </section>
 
 <!-- Slide 2: Visual Meme / Contrast -->

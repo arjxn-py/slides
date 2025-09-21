@@ -1,10 +1,10 @@
-<!-- .slide: data-background-color="#1e1e1e" -->
+<!-- .slide -->
 <div style="text-align: left; line-height: 1.2;">
-  <h4 style="color: white; font-size: 1.2em; margin-top: 0.2em; text-transform: none;">
+  <h4 style="font-size: 1.2em; margin-top: 0.2em; text-transform: none;">
     Collaborative & Reproducible
   </h4>
 
-  <h3 style="color: white; font-size: 2em; margin: 0; text-transform: none;">
+  <h3 style="font-size: 2em; margin: 0; text-transform: none;">
     <a href="https://jupytercad.github.io/JupyterCAD/lab/index.html" target="_blank">
       <img src="images/jcad.png" alt="JCAD" style="height: 1em; vertical-align: middle; margin-right: 0.2em;" />
     </a>
@@ -18,39 +18,38 @@
     <img src="images/jupyterlite.png" alt="JupyterLite" style="height: 1em; vertical-align: middle; margin-left: 0.2em;" />
   </h3>
 
-  <p style="color: white; font-style: italic; margin-top: 0.5em;">Arjun Verma</p>
+
+  <p style="font-style: italic; margin-top: 0.5em;">Arjun Verma</p>
+  <div style="margin-top: 0.5em;">
+    <img src="images/logo-qs.svg" alt="QuantStack" style="height: 1.5em; vertical-align: middle;" />
+  </div>
 </div>
 <!-- .slide: data-transition="zoom" -->
-
 
 
 ---
 
 <!-- .slide: class="section-with-footer" -->
 
-<!-- Logo heading replacement -->
+<!-- Heading -->
 <div style="text-align: center; margin: 0.5rem 0 1rem;">
-  <img src="images/logo-qs.svg" alt="QuantStack Logo" style="height: 5rem; max-width: 100%;" />
+  <h2>About Me</h2>
 </div>
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; font-size: 0.6em; line-height: 1.4;">
 
   <div style="flex: 1; min-width: 300px;">
     <ul style="margin: 0; padding-left: 1.5em;">
-      <li>Founded in 2016 <strong>in Paris</strong></li>
-      <li>Principal contributor to <strong>Jupyter</strong>, <strong>Apache Arrow</strong>, <strong>Mamba/Conda</strong></li>
-      <li>Multi-stakeholder projects with <strong>millions of users</strong></li>
-      <li>Open source development <strong>for clients</strong></li>
-      <li>Other topics: <strong>C++</strong>, scientific computing, WebAssembly, interactive applications</li>
-      <li>Organizer of the <strong>Pydata Paris</strong> event</li>
+      <li>I am Arjun Verma</li>
+      <li>I recently graduated this year with a major in Information Technology</li>
+      <li>Scientific Software Developer at QuantStack</li>
     </ul>
   </div>
 
   <div style="flex: 1; text-align: center; min-width: 280px;">
-    <img src="images/team.png" alt="QuantStack Team" style="width: 90%; max-width: 300px; height: auto; border-radius: 8px;" />
-    <p style="font-style: italic; margin-top: 0.5em;">
-      Empowering scientists and developers worldwide with cutting-edge tools
-    </p>
+    <div style="margin-top: 0.5em;">
+      <img src="images/logo-qs.svg" alt="QuantStack Logo" style="height: 3em; max-width: 100%;" />
+    </div>
   </div>
 
 </div>
@@ -76,11 +75,9 @@
   <h2>Sharing CAD & GIS workflows is painful</h2>
   <p class="fragment"><strong>Locked in desktops</strong> → no reproducibility</p>
   <p class="fragment"><strong>Complex UIs</strong> → steep learning curve</p>
-  <div class="fragment" style="margin-top: 1rem;">
-    <img src="images/astronaut-with-a-surprise.webp"
+    <img src="images/astronaut-pushing-rock.webp"
          alt="Frustrated astronaut"
          style="max-height: 60vh; border-radius: 8px; opacity: 0.9;" />
-  </div>
 </section>
 
 <!-- Slide 2: Visual Meme / Contrast -->
@@ -133,11 +130,9 @@
     <li class="fragment">Closed GUIs hide <strong>computational steps</strong> → no audit trail, hard to verify</li>
     <li class="fragment">Browser-native workflows → <strong>papers, datasets, and code</strong> all live together</li>
   </ul>
-  <div class="fragment" style="margin-top: 1rem; text-align: right;">
     <img src="images/astronaut-flying.webp" 
          alt="Open science astronaut" 
-         style="max-height: 50vh; border-radius: 6px; opacity: 0.7;" />
-  </div>
+         style="max-height: 50vh; border-radius: 6px; opacity: 0.7; margin-top:-300px;" />
 </section>
 
 <!-- Slide 5: Browser + WASM = New Paradigm -->
@@ -146,7 +141,7 @@
   <ul>
     <li class="fragment"><strong>The browser is the universal runtime</strong> — works on any device</li>
     <li class="fragment"><strong>WebAssembly (WASM)</strong> runs C/C++/Fortran scientific libraries natively in-browser</li>
-    <li class="fragment">Beyond CAD/GIS → <strong>climate models, genomics, finite element analysis</strong> in a notebook</li>
+    <li class="fragment">Beyond CAD/GIS → <strong>physics models, genomics, climate change analysis</strong> in a notebook</li>
     <li class="fragment">Language-agnostic → integrates with <strong>Python, R, Julia, JavaScript, C++</strong></li>
     <li class="fragment">New research workflows → share a notebook link, reproduce the full pipeline</li>
   </ul>
@@ -161,22 +156,31 @@
 ---
 
 <section>
-  <h2 style="text-transform: none;">
-    JupyterCAD
-    <img
-      src="images/jcad.png"
-      alt="JupyterCAD"
-      style="height: 1em; vertical-align: middle; margin-right: 0.3em;"
-    />
-  </h2>
-  <video
-    src="video/jcad/jcad.mp4"
-    autoplay
-    loop
-    muted
-    playsinline
-    style="max-width: 80%; margin-top: 2rem;"
-  ></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACreate-Basic-Shapes.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: inherit;"
+    >
+      <h2 style="text-transform: none; margin: 0;">JupyterCAD</h2>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 1.5em; object-fit: contain; vertical-align: middle;"
+      />
+    </a>
+  </div>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACreate-Basic-Shapes.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
@@ -191,33 +195,163 @@
 
 <!-- Vertical stack for features -->
 <section>
-  <h3>Sketch-based Modeling</h3>
-  <p class="fragment">Draw 2D sketches and turn them into 3D shapes</p>
-  <video src="video/jcad/jcad-sketch.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ASketch.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">Sketch-based Modeling</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Draw 2D sketches and turn them into 3D shapes
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ASketch.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
-  <h3>Boolean Operations</h3>
-  <p class="fragment">Cut, union, and intersect shapes with precision</p>
-  <video src="video/jcad/jcad-cut.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AOperations.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">Boolean Operations</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Cut, union, and intersect shapes with precision
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AOperations.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
-  <h3>Geometric Operations</h3>
-  <p class="fragment">Chamfer and fillet edges using UI or Python</p>
-  <video src="video/jcad/jcad-chamfer.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACut-Example.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">Operations in Action</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Cutting a box with spheres to create a nice shape
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACut-Example.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
-  <h3>Multiple Visualization Modes</h3>
-  <p class="fragment" style="font-size: 1.9rem;">Explore models with <strong>Exploded View</strong>, <strong>Clip Plane</strong>, and <strong>Wireframe</strong></p>
-  <video src="video/jcad/jcad-views.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1.5rem; border: 1px solid #ccc;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AMultiple-Views.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">Multiple Visualization Modes</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem; font-size: 1.9rem;">
+    Switch between <strong>Exploded View</strong>, <strong>Clip Plane</strong>, and <strong>Wireframe</strong> to explore models in depth
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AMultiple-Views.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
-  <p><strong>🎛️ Transform controls with snapping</strong></p>
-  <p class="fragment">Precise geometric manipulation in the browser</p>
-  <video src="video/jcad/jcad-transform.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ATransform-Controls.jcad"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🎛️ Transform Controls with Snapping</h3>
+      <img
+        src="images/jcad.png"
+        alt="JupyterCAD Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Move, rotate, and snap with precision
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ATransform-Controls.jcad"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 <section>
@@ -264,36 +398,6 @@
   </p>
 </section>
 
-<section>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-    <a
-      href="https://jupytercad.github.io/JupyterCAD/lab/index.html"
-      target="_blank"
-      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
-    >
-      <h3 style="text-transform: none; margin: 0;">JupyterCAD in Action</h3>
-      <img
-        src="images/jcad.png"
-        alt="JupyterCAD Logo"
-        style="height: 60px; object-fit: contain;"
-      />
-    </a>
-  </div>
-
-  <iframe
-    src="https://jupytercad.github.io/JupyterCAD/lab/index.html"
-    style="
-      border: none;
-      width: 100vw;
-      height: 90vh;
-      zoom: 0.75;
-      transform: scale(1);
-      transform-origin: top left;
-    "
-  ></iframe>
-</section>
-
-
 
 ---
 
@@ -327,45 +431,202 @@
 </section>
 
 <!-- Vertical stack for features -->
-  <section>
-    <h3>🗺️ Vector & Raster Data Support</h3>
-    <p class="fragment" style="font-size: 1.9rem">Load local and cloud-hosted data into your notebook session</p>
-    <video src="video/jgis/jgis-layers.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
+<section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AVector-Raster.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🗺️ Vector & Raster Data Support</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
 
-  <section>
-    <h3>🖍️ Vector Symbology</h3>
-    <p class="fragment">Visualize vector data using <strong>graduated</strong> and <strong>categorized</strong> rendering styles</p>
-    <video src="video/jgis/jgis-vector-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
-
-  <section>
-    <h3>🖍️ Raster Symbology</h3>
-    <p class="fragment">Use <strong>multiband rendering</strong> to style raster datasets like satellite imagery</p>
-    <video src="video/jgis/jgis-raster-symbology.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
-
-  <section>
-    <h3>🔄 Dynamic Layer Management</h3>
-    <p class="fragment">Add, remove, and style layers with a built-in interactive UI</p>
-    <video src="video/jgis/jgis-layer-management.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
-
-  <section>
-  <h3>🔍 Identify Panel</h3>
-  <p class="fragment">
-    Click on features in the map to instantly inspect their attributes.
+  <p style="text-align: center; margin-bottom: 1rem; font-size: 1.9rem;">
+    Load local and cloud-hosted vector & raster data directly
   </p>
-  <video src="video/jgis/jgis-identify.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AVector-Raster.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
+
+<section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AVector-Symbology.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🖍️ Vector Symbology</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Vector data with <strong>advanced</strong> rendering styles
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AVector-Symbology.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 
   <section>
-  <h3>⏳ Time Slider</h3>
-  <p class="fragment">
-    Visualize how data changes over time with an interactive slider.
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ARaster-Symbology.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🖍️ Raster Symbology</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Use <strong>multiband rendering</strong> to style raster datasets
   </p>
-  <video src="video/jgis/jgis-timeslider.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ARaster-Symbology.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
+
+  <section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ADynamic-Management.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🔄 Dynamic Layer Management</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Add, remove, and style layers using interactive UI
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ADynamic-Management.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
+
+<section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AIdentify.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🔍 Identify Panel</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Click features on map to inspect their attributes
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AIdentify.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
+
+
+<section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ATime-Slider.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">⏳ Time Slider</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Visualize how data evolves over time
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ATime-Slider.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
 </section>
 
 
@@ -393,10 +654,37 @@
   </section>
 
   <section>
-    <h3>🧪 Client-Side Processing</h3>
-    <p class="fragment">Perform buffer, dissolve, centroid and overlays with GDAL-WASM — no server required</p>
-    <video src="video/jgis/jgis-processing.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
-  </section>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <a
+      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AProcessing.jGIS"
+      target="_blank"
+      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
+    >
+      <h3 style="text-transform: none; margin: 0;">🧪 Client-Side Processing</h3>
+      <img
+        src="images/jgis.png"
+        alt="JupyterGIS Logo"
+        style="height: 50px; object-fit: contain;"
+      />
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-bottom: 1rem;">
+    Perform processing operations with GDAL-WASM
+  </p>
+
+  <iframe
+    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AProcessing.jGIS"
+    style="
+      border: none;
+      width: 100vw;
+      height: 75vh;
+      transform: scale(0.9);
+      transform-origin: top center;
+    "
+  ></iframe>
+</section>
+
 
 <!-- <section>
   <h3>🌐 Scientific Edge: GDAL in the Browser</h3>

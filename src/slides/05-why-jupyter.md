@@ -7,11 +7,9 @@
     <li class="fragment">Closed GUIs hide <strong>computational steps</strong> → no audit trail, hard to verify</li>
     <li class="fragment">Browser-native workflows → <strong>papers, datasets, and code</strong> all live together</li>
   </ul>
-  <div class="fragment" style="margin-top: 1rem; text-align: right;">
     <img src="images/astronaut-flying.webp" 
          alt="Open science astronaut" 
-         style="max-height: 50vh; border-radius: 6px; opacity: 0.7;" />
-  </div>
+         style="max-height: 50vh; border-radius: 6px; opacity: 0.7; margin-top:-300px;" />
 </section>
 
 <!-- Slide 5: Browser + WASM = New Paradigm -->
@@ -20,7 +18,7 @@
   <ul>
     <li class="fragment"><strong>The browser is the universal runtime</strong> — works on any device</li>
     <li class="fragment"><strong>WebAssembly (WASM)</strong> runs C/C++/Fortran scientific libraries natively in-browser</li>
-    <li class="fragment">Beyond CAD/GIS → <strong>climate models, genomics, finite element analysis</strong> in a notebook</li>
+    <li class="fragment">Beyond CAD/GIS → <strong>physics models, genomics, climate change analysis</strong> in a notebook</li>
     <li class="fragment">Language-agnostic → integrates with <strong>Python, R, Julia, JavaScript, C++</strong></li>
     <li class="fragment">New research workflows → share a notebook link, reproduce the full pipeline</li>
   </ul>
