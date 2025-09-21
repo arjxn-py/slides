@@ -216,15 +216,9 @@
 </section>
 
 <section>
-  <h3>💬 Suggestions Support</h3>
-  <p class="fragment" style="font-size: 1rem">
-    Collaborators can propose changes without modifying the actual model.
-  </p>
-  <p class="fragment" style="font-size: 1rem">
-    Editors receive these as <strong>suggestions</strong> and can choose to <strong>accept</strong> or <strong>reject</strong> them.
-  </p>
-  <p class="fragment" style="font-size: 1rem">
-    Enables asynchronous review cycles, just like pull requests in code!
+  <h3>💬 Suggestion Workflow</h3>
+  <p style="font-size: 1rem">
+    Collaborators can review models like <strong>pull requests</strong> — suggest, accept, or reject changes asynchronously.
   </p>
   <video src="video/jcad/jcad-suggestions.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
@@ -239,4 +233,22 @@
   <p class="fragment" style="margin-top: 1rem;">
     Move between tools without friction — with support for common CAD formats.
   </p>
+</section>
+
+<section>
+  <h3>JupyterCAD-MCP</h3>
+  <video 
+    id="jupytercad-mcp-video"
+    src="video/jcad/jupytercad-mcp.mp4" 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    style="max-width: 90%; margin-top: 1rem;"
+  ></video>
+
+  <script>
+    const video = document.getElementById('jupytercad-mcp-video');
+    video.playbackRate = 2.0;
+  </script>
 </section>

@@ -1,3 +1,19 @@
+<!-- Slide: Use Cases -->
+<section style="position: relative; height: 100vh;">
+  <div style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      ">
+    <h1 style="font-size: 5rem; font-weight: bold; color: #34495e; text-transform: uppercase;">
+      Use Cases
+    </h1>
+  </div>
+</section>
+
+
 <!-- Slide 6: S — Science -->
 <section>
   <h2 style="color:#3498db;">S — Science</h2>
