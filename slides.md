@@ -123,33 +123,25 @@
 
 <!-- Slide 4: Why This Matters Beyond CAD/GIS -->
 <section>
-  <h2>Why This Matters Beyond CAD/GIS</h2>
+  <h2>Why It Matters</h2>
   <ul>
-    <li class="fragment"><strong>Open science</strong> → results must be shareable, transparent, reproducible</li>
-    <li class="fragment">Desktop-first workflows → <strong>fragile installs</strong>, version mismatches, locked machines</li>
-    <li class="fragment">Closed GUIs hide <strong>computational steps</strong> → no audit trail, hard to verify</li>
-    <li class="fragment">Browser-native workflows → <strong>papers, datasets, and code</strong> all live together</li>
+    <li><strong>Open science:</strong> shareable, transparent, reproducible results</li>
+    <li><strong>Desktop workflows:</strong> fragile installs, version mismatches</li>
+    <li><strong>Closed GUIs:</strong> hide computational steps → hard to verify</li>
+    <li><strong>Browser-native:</strong> code, data, and notebooks together</li>
   </ul>
-    <img src="images/astronaut-flying.webp" 
-         alt="Open science astronaut" 
-         style="max-height: 50vh; border-radius: 6px; opacity: 0.7; margin-top:-300px;" />
 </section>
 
 <!-- Slide 5: Browser + WASM = New Paradigm -->
 <section>
-  <h2>The Browser + WASM = A New Paradigm</h2>
+  <h2>Browser + WASM</h2>
   <ul>
-    <li class="fragment"><strong>The browser is the universal runtime</strong> — works on any device</li>
-    <li class="fragment"><strong>WebAssembly (WASM)</strong> runs C/C++/Fortran scientific libraries natively in-browser</li>
-    <li class="fragment">Beyond CAD/GIS → <strong>physics models, genomics, climate change analysis</strong> in a notebook</li>
-    <li class="fragment">Language-agnostic → integrates with <strong>Python, R, Julia, JavaScript, C++</strong></li>
-    <li class="fragment">New research workflows → share a notebook link, reproduce the full pipeline</li>
+    <li><strong>Universal runtime:</strong> works on any device</li>
+    <li><strong>WebAssembly:</strong> run native scientific libraries in-browser</li>
+    <li><strong>Beyond CAD/GIS:</strong> physics, genomics, climate models</li>
+    <li><strong>Language-agnostic:</strong> Python, R, Julia, JS, C++</li>
+    <li><strong>Reproducible workflows:</strong> share a notebook link, run anywhere</li>
   </ul>
-  <div class="fragment" style="margin-top: 1rem; text-align: center;">
-    <img src="images/jupyterlite.png" alt="JupyterLite logo" style="height: 3rem; margin-right: 1rem;" />
-    <img src="images/astronaut-victory.webp" alt="Astronaut victory" 
-         style="max-height: 40vh; border-radius: 6px; opacity: 0.85;" />
-  </div>
 </section>
 
 
@@ -686,47 +678,6 @@
 </section>
 
 
-<!-- <section>
-  <h3>🌐 Scientific Edge: GDAL in the Browser</h3>
-  <ul>
-    <li class="fragment"><strong>Raster reprojection</strong> & CRS transformations</li>
-    <li class="fragment"><strong>Zonal statistics</strong> on raster/vector intersections</li>
-    <li class="fragment"><strong>Geometry operations</strong> like clipping & intersection</li>
-    <li class="fragment">Fully client-side & offline-capable</li>
-    <li class="fragment">Ideal for environmental science, urban planning, and climate research</li>
-  </ul>
-</section> -->
-
-<section>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-    <a
-      href="https://jupytergis.readthedocs.io/en/latest/lite/lab/"
-      target="_blank"
-      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
-    >
-      <h3 style="text-transform: none; margin: 0;">JupyterGIS in Action</h3>
-      <img
-        src="images/jgis.png"
-        alt="JupyterGIS Logo"
-        style="height: 60px; object-fit: contain;"
-      />
-    </a>
-  </div>
-
-  <iframe
-    src="https://jupytergis.readthedocs.io/en/latest/lite/lab/"
-    style="
-      border: none;
-      width: 100vw;
-      height: 80vh;
-      zoom: 0.75;
-      transform: scale(1);
-      transform-origin: top left;
-    "
-  ></iframe>
-</section>
-
-
 ---
 
 <section>
@@ -781,7 +732,7 @@
       </ul>
     </div>
     <div style="flex: 1; text-align: center;">
-      <img src="images/climate-map.png" alt="Climate data visualization"
+      <img src="images/climate-map.jpg" alt="Climate data visualization"
            style="max-height: 45vh; border-radius: 8px; border: 2px solid #3498db;" />
     </div>
   </div>
@@ -799,7 +750,7 @@
       </ul>
     </div>
     <div style="flex: 1; text-align: center;">
-      <img src="images/wasm-demo.png" alt="WASM workflow"
+      <img src="images/wasm-workflow.jpg" alt="WASM workflow"
            style="max-height: 45vh; border-radius: 8px; border: 2px solid #9b59b6;" />
     </div>
   </div>
@@ -835,7 +786,7 @@
       </ul>
     </div>
     <div style="flex: 1; text-align: center;">
-      <img src="images/edu-gis.png" alt="Education GIS"
+      <img src="images/education-gis.jpg" alt="Education GIS"
            style="max-height: 45vh; border-radius: 8px; border: 2px solid #2ecc71;" />
     </div>
   </div>

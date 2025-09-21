@@ -1,30 +1,22 @@
 <!-- Slide 4: Why This Matters Beyond CAD/GIS -->
 <section>
-  <h2>Why This Matters Beyond CAD/GIS</h2>
+  <h2>Why It Matters</h2>
   <ul>
-    <li class="fragment"><strong>Open science</strong> → results must be shareable, transparent, reproducible</li>
-    <li class="fragment">Desktop-first workflows → <strong>fragile installs</strong>, version mismatches, locked machines</li>
-    <li class="fragment">Closed GUIs hide <strong>computational steps</strong> → no audit trail, hard to verify</li>
-    <li class="fragment">Browser-native workflows → <strong>papers, datasets, and code</strong> all live together</li>
+    <li><strong>Open science:</strong> shareable, transparent, reproducible results</li>
+    <li><strong>Desktop workflows:</strong> fragile installs, version mismatches</li>
+    <li><strong>Closed GUIs:</strong> hide computational steps → hard to verify</li>
+    <li><strong>Browser-native:</strong> code, data, and notebooks together</li>
   </ul>
-    <img src="images/astronaut-flying.webp" 
-         alt="Open science astronaut" 
-         style="max-height: 50vh; border-radius: 6px; opacity: 0.7; margin-top:-300px;" />
 </section>
 
 <!-- Slide 5: Browser + WASM = New Paradigm -->
 <section>
-  <h2>The Browser + WASM = A New Paradigm</h2>
+  <h2>Browser + WASM</h2>
   <ul>
-    <li class="fragment"><strong>The browser is the universal runtime</strong> — works on any device</li>
-    <li class="fragment"><strong>WebAssembly (WASM)</strong> runs C/C++/Fortran scientific libraries natively in-browser</li>
-    <li class="fragment">Beyond CAD/GIS → <strong>physics models, genomics, climate change analysis</strong> in a notebook</li>
-    <li class="fragment">Language-agnostic → integrates with <strong>Python, R, Julia, JavaScript, C++</strong></li>
-    <li class="fragment">New research workflows → share a notebook link, reproduce the full pipeline</li>
+    <li><strong>Universal runtime:</strong> works on any device</li>
+    <li><strong>WebAssembly:</strong> run native scientific libraries in-browser</li>
+    <li><strong>Beyond CAD/GIS:</strong> physics, genomics, climate models</li>
+    <li><strong>Language-agnostic:</strong> Python, R, Julia, JS, C++</li>
+    <li><strong>Reproducible workflows:</strong> share a notebook link, run anywhere</li>
   </ul>
-  <div class="fragment" style="margin-top: 1rem; text-align: center;">
-    <img src="images/jupyterlite.png" alt="JupyterLite logo" style="height: 3rem; margin-right: 1rem;" />
-    <img src="images/astronaut-victory.webp" alt="Astronaut victory" 
-         style="max-height: 40vh; border-radius: 6px; opacity: 0.85;" />
-  </div>
 </section>
