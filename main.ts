@@ -8,7 +8,14 @@ const deck = new Reveal({
   slideNumber: true,
   autoPlayMedia: false,
   plugins: [Markdown, Highlight, Notes],
+
+  width: 1200,
+  height: 800,
+  margin: 0.04,
+  minScale: 0.2,
+  maxScale: 2.0 
 });
+
 
 deck.initialize().then(() => {
   console.log('Reveal.js initialized!');
