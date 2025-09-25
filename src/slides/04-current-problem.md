@@ -87,7 +87,7 @@
 
 
 <!-- Slide 2: Visual Meme / Contrast -->
-<section>
+<!-- <section>
   <div style="display: flex; gap: 2rem; align-items: flex-start; justify-content: center;">
     <div style="flex: 1; text-align: center;">
       <h3 style="color: #7a7a7aff;">🚨 Desktop Tools</h3>
@@ -106,10 +106,10 @@
       </p>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- Slide 3: Solution Intro -->
-<section>
+<!-- <section>
   <h2>CAD & GIS in the Browser</h2>
   <p class="fragment">
     <strong>JupyterCAD</strong> + <strong>JupyterGIS</strong> → CAD & spatial computing inside Jupyter
@@ -122,4 +122,4 @@
     <img src="images/jcad.png" alt="JupyterCAD" style="height: 3rem;" />
     <img src="images/jgis.png" alt="JupyterGIS" style="height: 3rem;" />
   </div>
-</section>
+</section> -->

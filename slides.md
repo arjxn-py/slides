@@ -146,7 +146,7 @@
 
 
 <!-- Slide 2: Visual Meme / Contrast -->
-<section>
+<!-- <section>
   <div style="display: flex; gap: 2rem; align-items: flex-start; justify-content: center;">
     <div style="flex: 1; text-align: center;">
       <h3 style="color: #7a7a7aff;">🚨 Desktop Tools</h3>
@@ -165,10 +165,10 @@
       </p>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- Slide 3: Solution Intro -->
-<section>
+<!-- <section>
   <h2>CAD & GIS in the Browser</h2>
   <p class="fragment">
     <strong>JupyterCAD</strong> + <strong>JupyterGIS</strong> → CAD & spatial computing inside Jupyter
@@ -181,20 +181,34 @@
     <img src="images/jcad.png" alt="JupyterCAD" style="height: 3rem;" />
     <img src="images/jgis.png" alt="JupyterGIS" style="height: 3rem;" />
   </div>
-</section>
+</section> -->
 
 
 ---
 
-<!-- Slide 4: Why This Matters Beyond CAD/GIS -->
-<section>
-  <h2>Why It Matters</h2>
-  <ul>
-    <li><strong>Open science:</strong> shareable, transparent, reproducible results</li>
-    <li><strong>Desktop workflows:</strong> fragile installs, version mismatches</li>
-    <li><strong>Closed GUIs:</strong> hide computational steps → hard to verify</li>
-    <li><strong>Browser-native:</strong> code, data, and notebooks together</li>
-  </ul>
+<section style="position:relative; height:80vh;">
+  <h2 style="text-align:center; margin-top:0.5rem;">What IF?</h2>
+
+  <div style="position:relative; width:100%; height:100%; margin-top:2rem; display:flex; flex-wrap:wrap; justify-content:space-around; align-items:flex-start; gap:2rem; padding:2rem;">
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Very small to no install
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Non-overwhelming, beginner-friendly UI
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ With live collaboration support
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Highly reproducible workflows
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Interoperable across tools & formats
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Highly extensible
+    </div>
+  </div>
 </section>
 
 <!-- Slide 5: Browser + WASM = New Paradigm -->

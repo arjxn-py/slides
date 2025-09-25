@@ -1,12 +1,26 @@
-<!-- Slide 4: Why This Matters Beyond CAD/GIS -->
-<section>
-  <h2>Why It Matters</h2>
-  <ul>
-    <li><strong>Open science:</strong> shareable, transparent, reproducible results</li>
-    <li><strong>Desktop workflows:</strong> fragile installs, version mismatches</li>
-    <li><strong>Closed GUIs:</strong> hide computational steps → hard to verify</li>
-    <li><strong>Browser-native:</strong> code, data, and notebooks together</li>
-  </ul>
+<section style="position:relative; height:80vh;">
+  <h2 style="text-align:center; margin-top:0.5rem;">What IF?</h2>
+
+  <div style="position:relative; width:100%; height:100%; margin-top:2rem; display:flex; flex-wrap:wrap; justify-content:space-around; align-items:flex-start; gap:2rem; padding:2rem;">
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Very small to no install
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Non-overwhelming, beginner-friendly UI
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ With live collaboration support
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Highly reproducible workflows
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Interoperable across tools & formats
+    </div>
+    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Highly extensible
+    </div>
+  </div>
 </section>
 
 <!-- Slide 5: Browser + WASM = New Paradigm -->
