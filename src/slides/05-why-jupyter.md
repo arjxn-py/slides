@@ -23,14 +23,27 @@
   </div>
 </section>
 
-<!-- Slide 5: Browser + WASM = New Paradigm -->
-<section>
-  <h2>Browser + WASM</h2>
-  <ul>
-    <li><strong>Universal runtime:</strong> works on any device</li>
-    <li><strong>WebAssembly:</strong> run native scientific libraries in-browser</li>
-    <li><strong>Beyond CAD/GIS:</strong> physics, genomics, climate models</li>
-    <li><strong>Language-agnostic:</strong> Python, R, Julia, JS, C++</li>
-    <li><strong>Reproducible workflows:</strong> share a notebook link, run anywhere</li>
-  </ul>
+<section style="display:flex; justify-content:center; align-items:center; height:100vh; flex-direction:column; gap:2rem;">
+  <h2 style="margin:0; text-align:center;">
+    JupyterCAD 
+    <img src="images/jcad.png" alt="JupyterCAD logo" style="height:5rem; vertical-align:middle; margin:0 0.5rem;" />
+    & 
+    JupyterGIS 
+    <img src="images/jgis.png" alt="JupyterGIS logo" style="height:5rem; vertical-align:middle; margin:0 0.5rem;" />
+  </h2>
+
+  <!-- JupyterGIS screenshot (bottom) -->
+  <div style="position:absolute; top:15%; left:10%; width:60%; z-index:1;">
+    <img src="images/jupytergis-ss.png" alt="JupyterGIS Screenshot" 
+          style="width:100%; height:auto; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+  </div>
+
+  <!-- JupyterCAD screenshot (top) -->
+  <div style="position:absolute; top:30%; left:30%; width:60%; z-index:2;">
+    <img src="images/jupytercad-ss.png" alt="JupyterCAD Screenshot" 
+          style="width:100%; height:auto; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+  </div>
+
 </section>
+
+
