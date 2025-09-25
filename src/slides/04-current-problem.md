@@ -29,6 +29,23 @@
   </div>
 </section>
 
+<section>
+  <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
+
+  <div class="fragment" style="position:relative; height:80vh; margin-top:2rem;">
+    <h3 style="position:absolute; top:1rem; width:100%; text-align:center;">Complex UI</h3>
+
+  <div style="position:absolute; top:0; left:10%; width:60%; z-index:1;">
+    <img src="images/qgis-ui.png" alt="QGIS UI screenshot" style="width:100%; height:auto; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+  </div>
+
+  <div style="position:absolute; top:20%; left:30%; width:60%; z-index:2;">
+    <img src="images/fcad-ui.png" alt="FreeCAD UI screenshot" style="width:100%; height:auto; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+  </div>
+  </div>
+</section>
+
+
 
 <!-- Slide 2: Visual Meme / Contrast -->
 <section>
