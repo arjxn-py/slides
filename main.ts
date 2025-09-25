@@ -7,6 +7,8 @@ const deck = new Reveal({
   hash: true,
   slideNumber: true,
   autoPlayMedia: false,
+  transition: 'fade',
+  transitionSpeed: 'slow',
   plugins: [Markdown, Highlight, Notes],
 
   width: 1200,
