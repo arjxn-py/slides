@@ -1,6 +1,6 @@
 <section>
   <h2 style="text-align:center; margin-top: 0.5rem; font-weight:300;">
-    How many of you are familiar with <strong style="font-weight:700;">CAD</strong> or <strong style="font-weight:700;">GIS</strong>?
+    How many of you are familiar with <strong style="font-weight:700;">FreeCAD</strong> or <strong style="font-weight:700;">QGIS</strong>?
   </h2>
 
   <div style="display:flex; justify-content:center; gap:4rem; align-items:center; margin-top:2.5rem;">
