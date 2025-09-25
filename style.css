@@ -1,9 +1,34 @@
+/* Headings */
 .reveal h1 {
   font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
+.reveal,
+.reveal .slides,
+.reveal .slides section,
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides h5,
+.reveal .slides h6,
+.reveal .slides p,
+.reveal .slides li {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Slides (body text, lists, etc.) */
 .reveal .slides {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* Code blocks and inline code */
+.reveal code,
+.reveal pre code {
+  font-family: 'Fira Code', monospace;
 }
 
 /* Set reveal.js root background to white */
@@ -33,6 +58,7 @@
   background-color: unset;
 }
 
+/* Astronaut image */
 #astronaut {
   position: fixed;
   width: 100px;
