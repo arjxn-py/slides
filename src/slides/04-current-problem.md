@@ -14,6 +14,22 @@
   </div>
 </section>
 
+<section>
+  <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
+
+  <div class="fragment" style="display:flex; flex-direction: column; align-items:center; gap:2rem; margin-top:2rem;">
+  <h3 style="text-align:center; margin-top:1.5rem;">GB-sized installs</h3>
+
+  <div style="text-align:center;">
+    <img src="images/qgis-size.png" alt="QGIS install size" style="height:10rem; display:block; margin:0 auto;" />
+  </div>
+  <div style="text-align:center;">
+    <img src="images/fcad-size.png" alt="FreeCAD install size" style="height:10rem; display:block; margin:0 auto;" />
+  </div>
+  </div>
+</section>
+
+
 <!-- Slide 2: Visual Meme / Contrast -->
 <section>
   <div style="display: flex; gap: 2rem; align-items: flex-start; justify-content: center;">

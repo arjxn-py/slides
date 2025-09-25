@@ -53,6 +53,17 @@
   color: inherit;
 }
 
+/* Prevent headings from being automatically uppercased */
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides h5,
+.reveal .slides h6 {
+  text-transform: none;
+}
+
+
 /* Allow slides with custom background to override background only */
 .reveal .slides section[data-background-color] {
   background-color: unset;
