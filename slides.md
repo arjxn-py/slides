@@ -57,21 +57,27 @@
 
 ---
 
-<!-- Slide 1: Hook / Pain -->
 <section>
-  <h2>Sharing CAD & GIS workflows is painful</h2>
-  <p class="fragment"><strong>Locked in desktops</strong> → no reproducibility</p>
-  <p class="fragment"><strong>Complex UIs</strong> → steep learning curve</p>
-    <img src="images/astronaut-pushing-rock.webp"
-         alt="Frustrated astronaut"
-         style="max-height: 60vh; border-radius: 8px; opacity: 0.9;" />
+  <h2 style="text-align:center; margin-top: 0.5rem; font-weight:300;">
+    How many of you are familiar with <strong style="font-weight:700;">CAD</strong> or <strong style="font-weight:700;">GIS</strong>?
+  </h2>
+
+  <div style="display:flex; justify-content:center; gap:4rem; align-items:center; margin-top:2.5rem;">
+    <div class="fragment" style="text-align:center;">
+      <img src="images/freecad-logo.svg" alt="FreeCAD logo" style="height:6rem; display:block; margin:0 auto;" />
+    </div>
+
+  <div class="fragment" style="text-align:center;">
+    <img src="images/qgis-logo.svg" alt="QGIS logo" style="height:12rem; display:block; margin:0 auto;" />
+  </div>
+  </div>
 </section>
 
 <!-- Slide 2: Visual Meme / Contrast -->
 <section>
   <div style="display: flex; gap: 2rem; align-items: flex-start; justify-content: center;">
     <div style="flex: 1; text-align: center;">
-      <h3 style="color: #e74c3c;">🚨 Desktop Tools</h3>
+      <h3 style="color: #7a7a7aff;">🚨 Desktop Tools</h3>
       <img src="images/qgis-error.png" alt="Install error screenshot"
            style="max-width: 100%; max-height: 40vh; border: 2px solid #e74c3c; border-radius: 6px;" />
       <p style="font-size: 0.9em; color: #aaa; margin-top: 0.5rem;">
