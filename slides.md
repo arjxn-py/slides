@@ -108,34 +108,48 @@
 
 <section>
   <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
-  <div class="fragment" style="position:relative; height:80vh; margin-top:2rem;">
 
-  <h3 style="text-align:center; margin-top:1.5rem;">Not Collaborative</h3>
-  <div style="display:flex; justify-content:center; align-items:center; height:70vh; overflow:hidden;">
-    <img src="images/rabbit-duck.png" 
-         alt="Rabbit Duck Illustration" 
-         style="width:70%; max-height:100%; object-fit:cover; clip-path: inset(1% 1% 1% 1%);" />
-  </div>
+  <div class="fragment" style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:75vh; gap:2rem;">
+    
+  <h3 style="text-align:center; margin-top:2rem;">Not Collaborative</h3>
+
+  <div style="display:flex; align-items:center; gap:3rem; max-width:80%;">
+    
+  <!-- Icon/illustration block -->
+  <div style="flex:1; display:flex; justify-content:center; align-items:center;">
+    <img src="images/teamwork.jpg" alt="Not collaborative" 
+          style="max-height:70rem; width:auto; opacity:0.9;" />
   </div>
 
+  <!-- Text block -->
+  <ul style="flex:1; list-style-type:none; padding:0; margin:0; font-size:2.3rem; line-height:1.8; text-align:left;">
+    <li>📧 Files shared via Email, Git or Drives</li>
+    <li>🚫 Difficult to Iterate</li>
+    <li>⚡ Friction with multiperson tasks</li>
+  </ul>
+
+  </div>
+
+  </div>
 </section>
+
 
 
 <section>
   <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
 
   <div class="fragment" style="position:relative; width:100%; height:70vh; margin-top:2rem; display:flex; flex-direction:column; align-items:center; justify-content:center;">
-  <h3 style="margin-top:1.5rem; text-align:center;">Not Easily Reproducible</h3>
+  <h3 style="margin-top:1.5rem; text-align:center;">Not Easily Shareable</h3>
 
   <div style="position:relative; width:100%; height:100%; display:flex; justify-content:center; align-items:center;">
 
-  <img src="images/qgis-error.png"
+  <img src="images/works-on-my-machine-ryan-gosling.png"
         alt="QGIS Error"
-        style="max-width:60%; max-height:50%; object-fit:contain; border-radius:6px; margin-right:30%;" />
+        style="max-width:70%; max-height:50%; border-radius:6px; margin-right:50%;" />
 
   <img src="images/qgis-versions.png"
         alt="QGIS Version Hell"
-        style="position:absolute; bottom:5%; right:15%; max-height:85%; width:auto; border-radius:6px;" />
+        style="position:absolute; bottom:5%; right:20%; max-height:85%; width:auto; border-radius:6px;" />
 
   </div>
 
