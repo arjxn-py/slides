@@ -46,6 +46,21 @@
 </section>
 
 
+<section>
+  <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
+  <div class="fragment" style="position:relative; height:80vh; margin-top:2rem;">
+
+  <h3 style="text-align:center; margin-top:1.5rem;">Not Collaborative</h3>
+  <div style="display:flex; justify-content:center; align-items:center; height:70vh; overflow:hidden;">
+    <img src="images/rabbit-duck.png" 
+         alt="Rabbit Duck Illustration" 
+         style="width:70%; max-height:100%; object-fit:cover; clip-path: inset(1% 1% 1% 1%);" />
+  </div>
+  </div>
+
+</section>
+
+
 
 <!-- Slide 2: Visual Meme / Contrast -->
 <section>
