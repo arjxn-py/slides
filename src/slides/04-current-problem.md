@@ -98,6 +98,46 @@
 </section>
 
 
+<section>
+  <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
+
+  <div class="fragment" style="display:flex; flex-direction:column; align-items:center; height:75vh; gap:2rem;">
+  
+  <h3 style="text-align:center; margin:0;">Constant Context Switching</h3>
+
+  <div style="display:flex; align-items:center; justify-content:center; gap:3rem; height:70%;">
+    
+  <!-- QGIS Screenshot -->
+  <div style="flex:1; text-align:center;">
+    <img src="images/qgis-vis.png" alt="QGIS Screenshot"
+          style="max-height:60vh; width:auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+    <p style="margin-top:0.5rem;">QGIS for Visualization</p>
+  </div>
+
+  <!-- Switching Icon -->
+  <div style="font-size:3rem;">🔄</div>
+
+  <!-- Jupyter Screenshot -->
+  <div style="flex:1; text-align:center;">
+    <img src="images/jgis-ww.png" alt="Jupyter Screenshot"
+          style="max-height:60vh; width:auto; border-radius:6px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+    <p style="margin-top:0.5rem;">Jupyter for Processing</p>
+  </div>
+
+  </div>
+  </div>
+
+  <!-- Slide notes -->
+  <aside class="notes">
+    Here I want to emphasize the constant switching users face.  
+    For example, you might analyze geospatial data in Jupyter, but as soon as you need visualization,  
+    you jump to QGIS — then back again when you need further processing.  
+    This breaks your flow, adds overhead, and makes reproducibility harder.
+  </aside>
+</section>
+
+
+
 
 
 
