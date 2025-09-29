@@ -1,27 +1,24 @@
 <!-- .slide -->
 <div style="text-align: left; line-height: 1.2;">
-  <h4 style="font-size: 1.2em; margin-top: 0.2em; text-transform: none;">
-    Collaborative & Reproducible
-  </h4>
 
-  <h3 style="font-size: 2em; margin: 0; text-transform: none;">
+  <h3 style="font-size: 1.5em; margin: 0; text-transform: none;">
+    Collaborative
     <a href="https://jupytercad.github.io/JupyterCAD/lab/index.html" target="_blank">
       <img src="images/jcad.png" alt="JCAD" style="height: 1em; vertical-align: middle; margin-right: 0.2em;" />
     </a>
-    CAD & 
+    CAD and
     <a href="https://jupytergis.readthedocs.io/en/latest/lite/lab/" target="_blank">
       <img src="images/jgis.png" alt="JGIS" style="height: 1em; vertical-align: middle; margin-left: 0.2em; margin-right: 0.2em;" />
     </a>
-    GIS in 
-    Jupyter
+    GIS editing in JupyterLab
     <img src="images/jupyter.svg" alt="Jupyter" style="height: 1em; vertical-align: middle; margin-left: 0.4em;" />
     <img src="images/jupyterlite.png" alt="JupyterLite" style="height: 1em; vertical-align: middle; margin-left: 0.2em;" />
   </h3>
 
 
-  <p style="font-style: italic; margin-top: 0.5em;">Arjun Verma</p>
+  <p style="font-style: italic; margin-top: 0.5em;">Arjun Verma and Martin Renou</p>
   <div style="margin-top: 0.5em;">
-    <img src="images/logo-qs.svg" alt="QuantStack" style="height: 1.5em; vertical-align: middle;" />
+    <img src="images/logo-qs.svg" alt="QuantStack" style="height: 3em; vertical-align: middle;" />
   </div>
 </div>
 <!-- .slide: data-transition="zoom" -->
@@ -33,22 +30,28 @@
 
 <!-- Heading -->
 <div style="text-align: center; margin: 0.5rem 0 1rem;">
-  <h2>About Me</h2>
+  <h2>About Us</h2>
 </div>
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; font-size: 0.6em; line-height: 1.4;">
 
-  <div style="flex: 1; min-width: 300px;">
-    <ul style="margin: 0; padding-left: 1.5em;">
-      <li>I am Arjun Verma</li>
-      <li>I recently graduated this year with a major in Information Technology</li>
-      <li>Scientific Software Developer at QuantStack</li>
-    </ul>
+  <div style="flex: 1; min-width: 320px;">
+    <div style="margin-bottom: 1.2em;">
+      <strong style="font-size: 1.2em;">Arjun Verma</strong><br/>
+      <span style="color: #666;">Scientific Software Developer</span><br/>
+      <span style="color: #999; font-size: 0.9em;">QuantStack</span>
+    </div>
+
+  <div>
+    <strong style="font-size: 1.2em;">Martin Renou</strong><br/>
+    <span style="color: #666;">Technical Director</span><br/>
+    <span style="color: #999; font-size: 0.9em;">QuantStack</span>
+  </div>
   </div>
 
   <div style="flex: 1; text-align: center; min-width: 280px;">
     <div style="margin-top: 0.5em;">
-      <img src="images/logo-qs.svg" alt="QuantStack Logo" style="height: 3em; max-width: 100%;" />
+      <img src="images/logo-qs.svg" alt="QuantStack Logo" style="height: 4em; max-width: 100%;" />
     </div>
   </div>
 
@@ -298,7 +301,7 @@
   <h3>About JupyterCAD</h3>
   <ul>
     <li class="fragment">Browser-native 3D modeling for JupyterLab</li>
-    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly)</li>
+    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly) and <strong>ThreeJS</strong> for display</li>
     <li class="fragment">Parametric, sketch-driven design</li>
     <li class="fragment">Integrates with Python code cells</li>
   </ul>
@@ -535,13 +538,13 @@
 
 <section>
   <h3>JupyterCAD-MCP</h3>
-  <video 
+  <video
     id="jupytercad-mcp-video"
-    src="video/jcad/jupytercad-mcp.mp4" 
-    autoplay 
-    loop 
-    muted 
-    playsinline 
+    src="video/jcad/jupytercad-mcp.mp4"
+    autoplay
+    loop
+    muted
+    playsinline
     style="max-width: 90%; margin-top: 1rem;"
   ></video>
 

@@ -2,7 +2,7 @@
   <h3>About JupyterCAD</h3>
   <ul>
     <li class="fragment">Browser-native 3D modeling for JupyterLab</li>
-    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly)</li>
+    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly) and <strong>ThreeJS</strong> for display</li>
     <li class="fragment">Parametric, sketch-driven design</li>
     <li class="fragment">Integrates with Python code cells</li>
   </ul>
@@ -239,13 +239,13 @@
 
 <section>
   <h3>JupyterCAD-MCP</h3>
-  <video 
+  <video
     id="jupytercad-mcp-video"
-    src="video/jcad/jupytercad-mcp.mp4" 
-    autoplay 
-    loop 
-    muted 
-    playsinline 
+    src="video/jcad/jupytercad-mcp.mp4"
+    autoplay
+    loop
+    muted
+    playsinline
     style="max-width: 90%; margin-top: 1rem;"
   ></video>
 
