@@ -972,7 +972,8 @@
 ---
 
 <section style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding-top: 2rem;">
-  <h2 style="text-transform: none; margin-bottom: 2rem;">Try Live</h2>
+  <h2 style="text-transform: none;">Thank You</h2>
+  <h3 style="margin-top: 2rem;">Questions?</h3>
 
   <div style="
     display: flex;
@@ -988,12 +989,4 @@
       <img src="images/jgis-qr.png" alt="JupyterGIS QR" style="width: 350px; height: auto;" />
     </div>
   </div>
-</section>
-
-
----
-
-<section>
-  <h2 style="text-transform: none;">Thank You</h2>
-  <h3 style="margin-top: 2rem;">Questions?</h3>
 </section>
