@@ -891,8 +891,8 @@
 
   <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; font-size:2.2rem; line-height:1.6;">
   
-  <div>🌍 <strong>Environmental Science</strong><br><span style="color:#555;">Geospatial analysis</span></div>
-  <div>🌊 <strong>Geoscience</strong><br><span style="color:#555;">Urban mapping</span></div>
+  <div>🌍 <strong>Environmental Science</strong><br><span style="color:#555;">Analyze climate or land-use patterns</span></div>
+  <div>🌊 <strong>Geoscience</strong><br><span style="color:#555;">Map terrain, water or seismic data</span></div>
   <div>🛠️ <strong>Engineering</strong><br><span style="color:#555;">Parametric CAD models in notebooks</span></div>
   <div>📐 <strong>Education</strong><br><span style="color:#555;">Teach CAD/GIS with no installs</span></div>
   <div>⚡ <strong>R&D</strong><br><span style="color:#555;">Prototype & share browser-native apps</span></div>
