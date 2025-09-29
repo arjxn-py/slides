@@ -1,4 +1,15 @@
 <section>
+  <h3>About JupyterCAD</h3>
+  <ul>
+    <li class="fragment">Browser-native 3D modeling for JupyterLab</li>
+    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly)</li>
+    <li class="fragment">Parametric, sketch-driven design</li>
+    <li class="fragment">Integrates with Python code cells</li>
+  </ul>
+</section>
+
+
+<section>
   <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
     <a
       href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACreate-Basic-Shapes.jcad"
@@ -26,15 +37,6 @@
   ></iframe>
 </section>
 
-<section>
-  <h3>About JupyterCAD</h3>
-  <ul>
-    <li class="fragment">Browser-native 3D modeling for JupyterLab</li>
-    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly)</li>
-    <li class="fragment">Parametric, sketch-driven design</li>
-    <li class="fragment">Integrates with Python code cells</li>
-  </ul>
-</section>
 
 <!-- Vertical stack for features -->
 <section>

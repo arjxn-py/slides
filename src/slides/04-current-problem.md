@@ -75,29 +75,6 @@
 </section>
 
 
-
-<section>
-  <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
-
-  <div class="fragment" style="position:relative; width:100%; height:70vh; margin-top:2rem; display:flex; flex-direction:column; align-items:center; justify-content:center;">
-  <h3 style="margin-top:1.5rem; text-align:center;">Not Easily Shareable</h3>
-
-  <div style="position:relative; width:100%; height:100%; display:flex; justify-content:center; align-items:center;">
-
-  <img src="images/works-on-my-machine-ryan-gosling.png"
-        alt="QGIS Error"
-        style="max-width:70%; max-height:50%; border-radius:6px; margin-right:50%;" />
-
-  <img src="images/qgis-versions.png"
-        alt="QGIS Version Hell"
-        style="position:absolute; bottom:5%; right:20%; max-height:85%; width:auto; border-radius:6px;" />
-
-  </div>
-
-  </div>
-</section>
-
-
 <section>
   <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
 
@@ -135,6 +112,29 @@
     This breaks your flow, adds overhead, and makes reproducibility harder.
   </aside>
 </section>
+
+<section>
+  <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
+
+  <div class="fragment" style="position:relative; width:100%; height:70vh; margin-top:2rem; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+  <h3 style="margin-top:1.5rem; text-align:center;">Not Easily Shareable</h3>
+
+  <div style="position:relative; width:100%; height:100%; display:flex; justify-content:center; align-items:center;">
+
+  <img src="images/works-on-my-machine-ryan-gosling.png"
+        alt="QGIS Error"
+        style="max-width:70%; max-height:50%; border-radius:6px; margin-right:50%;" />
+
+  <img src="images/qgis-versions.png"
+        alt="QGIS Version Hell"
+        style="position:absolute; bottom:5%; right:20%; max-height:85%; width:auto; border-radius:6px;" />
+
+  </div>
+
+  </div>
+</section>
+
+
 
 
 

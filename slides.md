@@ -134,29 +134,6 @@
 </section>
 
 
-
-<section>
-  <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
-
-  <div class="fragment" style="position:relative; width:100%; height:70vh; margin-top:2rem; display:flex; flex-direction:column; align-items:center; justify-content:center;">
-  <h3 style="margin-top:1.5rem; text-align:center;">Not Easily Shareable</h3>
-
-  <div style="position:relative; width:100%; height:100%; display:flex; justify-content:center; align-items:center;">
-
-  <img src="images/works-on-my-machine-ryan-gosling.png"
-        alt="QGIS Error"
-        style="max-width:70%; max-height:50%; border-radius:6px; margin-right:50%;" />
-
-  <img src="images/qgis-versions.png"
-        alt="QGIS Version Hell"
-        style="position:absolute; bottom:5%; right:20%; max-height:85%; width:auto; border-radius:6px;" />
-
-  </div>
-
-  </div>
-</section>
-
-
 <section>
   <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
 
@@ -194,6 +171,29 @@
     This breaks your flow, adds overhead, and makes reproducibility harder.
   </aside>
 </section>
+
+<section>
+  <h2 style="text-align:center; margin-top:0.5rem;">Powerful Tools BUT</h2>
+
+  <div class="fragment" style="position:relative; width:100%; height:70vh; margin-top:2rem; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+  <h3 style="margin-top:1.5rem; text-align:center;">Not Easily Shareable</h3>
+
+  <div style="position:relative; width:100%; height:100%; display:flex; justify-content:center; align-items:center;">
+
+  <img src="images/works-on-my-machine-ryan-gosling.png"
+        alt="QGIS Error"
+        style="max-width:70%; max-height:50%; border-radius:6px; margin-right:50%;" />
+
+  <img src="images/qgis-versions.png"
+        alt="QGIS Version Hell"
+        style="position:absolute; bottom:5%; right:20%; max-height:85%; width:auto; border-radius:6px;" />
+
+  </div>
+
+  </div>
+</section>
+
+
 
 
 
@@ -245,22 +245,22 @@
   <h2 style="text-align:center; margin-top:0.5rem;">What IF?</h2>
 
   <div style="position:relative; width:100%; height:100%; margin-top:2rem; display:flex; flex-wrap:wrap; justify-content:space-around; align-items:flex-start; gap:2rem; padding:2rem;">
-    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+    <div style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
       ✅ Very small to no install
     </div>
-    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+    <div style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
       ✅ Non-overwhelming, beginner-friendly UI
     </div>
-    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+    <div style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
       ✅ With live collaboration support
     </div>
-    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
-      ✅ Highly reproducible workflows
+    <div style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+      ✅ Inside your notebooks & scientific environment
     </div>
-    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+    <div style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
       ✅ Interoperable across tools & formats
     </div>
-    <div class="fragment" style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
+    <div style="flex:0 1 40%; font-weight:400; background:#f0f0f0; padding:0.5rem 1rem; border-radius:6px;">
       ✅ Highly extensible
     </div>
   </div>
@@ -295,6 +295,17 @@
 ---
 
 <section>
+  <h3>About JupyterCAD</h3>
+  <ul>
+    <li class="fragment">Browser-native 3D modeling for JupyterLab</li>
+    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly)</li>
+    <li class="fragment">Parametric, sketch-driven design</li>
+    <li class="fragment">Integrates with Python code cells</li>
+  </ul>
+</section>
+
+
+<section>
   <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
     <a
       href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACreate-Basic-Shapes.jcad"
@@ -322,15 +333,6 @@
   ></iframe>
 </section>
 
-<section>
-  <h3>About JupyterCAD</h3>
-  <ul>
-    <li class="fragment">Browser-native 3D modeling for JupyterLab</li>
-    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly)</li>
-    <li class="fragment">Parametric, sketch-driven design</li>
-    <li class="fragment">Integrates with Python code cells</li>
-  </ul>
-</section>
 
 <!-- Vertical stack for features -->
 <section>
@@ -553,6 +555,16 @@
 ---
 
 <section>
+  <h3>About JupyterGIS</h3>
+  <ul>
+    <li class="fragment">A full-featured GIS toolkit inside JupyterLab</li>
+    <li class="fragment">Supports raster and vector layers</li>
+    <li class="fragment">Built with <strong>OpenLayers</strong> + <strong>GDAL</strong> (WebAssembly)</li>
+  </ul>
+</section>
+
+
+<section>
   <h2 style="text-transform: none;">
     JupyterGIS
     <img
@@ -572,14 +584,6 @@
 </section>
 
 
-<section>
-  <h3>About JupyterGIS</h3>
-  <ul>
-    <li class="fragment">A full-featured GIS toolkit inside JupyterLab</li>
-    <li class="fragment">Supports raster and vector layers</li>
-    <li class="fragment">Built with <strong>OpenLayers</strong> + <strong>GDAL</strong> (WebAssembly)</li>
-  </ul>
-</section>
 
 <!-- Vertical stack for features -->
 <section>
@@ -879,91 +883,18 @@
 
 ---
 
-<!-- Slide: Use Cases -->
-<section style="position: relative; height: 100vh;">
-  <div style="
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-      ">
-    <h1 style="font-size: 5rem; font-weight: bold; color: #34495e; text-transform: uppercase;">
-      Use Cases
-    </h1>
-  </div>
-</section>
+<section style="height:100vh; display:flex; flex-direction:column; justify-content:center; align-items:center; padding:2rem;">
+  <h2 style="text-align:center; margin-bottom:2.5rem;">Use Cases</h2>
 
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; font-size:2.2rem; line-height:1.6;">
+  
+  <div>🌍 <strong>Environmental Science</strong><br><span style="color:#555;">Geospatial analysis</span></div>
+  <div>🌊 <strong>Geoscience</strong><br><span style="color:#555;">Urban mapping</span></div>
+  <div>🛠️ <strong>Engineering</strong><br><span style="color:#555;">Parametric CAD models in notebooks</span></div>
+  <div>📐 <strong>Education</strong><br><span style="color:#555;">Teach CAD/GIS with no installs</span></div>
+  <div>⚡ <strong>R&D</strong><br><span style="color:#555;">Prototype & share browser-native apps</span></div>
+  <div>🧑‍🤝‍🧑 <strong>Collaboration</strong><br><span style="color:#555;">Design reviews in the browser</span></div>
 
-<!-- Slide 6: S — Science -->
-<section>
-  <h2 style="color:#3498db;">S — Science</h2>
-  <div style="display: flex; gap: 2rem; align-items: center;">
-    <div style="flex: 1;">
-      <ul>
-        <li class="fragment">Environmental science: <strong>climate & land use analysis</strong></li>
-        <li class="fragment">Geoscience: map <strong>seismic or hydrology data</strong></li>
-        <li class="fragment">Reproducible workflows → share datasets + analysis as one notebook</li>
-      </ul>
-    </div>
-    <div style="flex: 1; text-align: center;">
-      <img src="images/climate-map.jpg" alt="Climate data visualization"
-           style="max-height: 45vh; border-radius: 8px; border: 2px solid #3498db;" />
-    </div>
-  </div>
-</section>
-
-<!-- Slide 7: T — Technology -->
-<section>
-  <h2 style="color:#9b59b6;">T — Technology</h2>
-  <div style="display: flex; gap: 2rem; align-items: center;">
-    <div style="flex: 1;">
-      <ul>
-        <li class="fragment">Browser-native <strong>CAD/GIS platforms</strong> for R&D</li>
-        <li class="fragment">Run <strong>legacy scientific code</strong> with WebAssembly</li>
-        <li class="fragment">Prototype & share <strong>interactive spatial apps</strong></li>
-      </ul>
-    </div>
-    <div style="flex: 1; text-align: center;">
-      <img src="images/wasm-workflow.jpg" alt="WASM workflow"
-           style="max-height: 45vh; border-radius: 8px; border: 2px solid #9b59b6;" />
-    </div>
-  </div>
-</section>
-
-<!-- Slide 8: E — Engineering -->
-<section>
-  <h2 style="color:#e67e22;">E — Engineering</h2>
-  <div style="display: flex; gap: 2rem; align-items: center;">
-    <div style="flex: 1;">
-      <ul>
-        <li class="fragment">Parametric design → <strong>reproducible CAD models</strong> in papers</li>
-        <li class="fragment">Collaborative <strong>mechanical design reviews</strong> in the browser</li>
-        <li class="fragment">Integrate CAD with <strong>simulation notebooks</strong></li>
-      </ul>
-    </div>
-    <div style="flex: 1; text-align: center;">
-      <img src="images/parametric-cad.png" alt="Parametric CAD"
-           style="max-height: 45vh; border-radius: 8px; border: 2px solid #e67e22;" />
-    </div>
-  </div>
-</section>
-
-<!-- Slide 9: M — Mathematics & Education -->
-<section>
-  <h2 style="color:#2ecc71;">M — Mathematics & Education</h2>
-  <div style="display: flex; gap: 2rem; align-items: center;">
-    <div style="flex: 1;">
-      <ul>
-        <li class="fragment"><strong>Teach CAD/GIS</strong> without installs or licenses</li>
-        <li class="fragment">Students explore <strong>geometry + geospatial data</strong> interactively</li>
-        <li class="fragment">Notebook = <strong>textbook + lab + code</strong> all in one</li>
-      </ul>
-    </div>
-    <div style="flex: 1; text-align: center;">
-      <img src="images/education-gis.jpg" alt="Education GIS"
-           style="max-height: 45vh; border-radius: 8px; border: 2px solid #2ecc71;" />
-    </div>
   </div>
 </section>
 

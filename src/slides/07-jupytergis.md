@@ -1,4 +1,14 @@
 <section>
+  <h3>About JupyterGIS</h3>
+  <ul>
+    <li class="fragment">A full-featured GIS toolkit inside JupyterLab</li>
+    <li class="fragment">Supports raster and vector layers</li>
+    <li class="fragment">Built with <strong>OpenLayers</strong> + <strong>GDAL</strong> (WebAssembly)</li>
+  </ul>
+</section>
+
+
+<section>
   <h2 style="text-transform: none;">
     JupyterGIS
     <img
@@ -18,14 +28,6 @@
 </section>
 
 
-<section>
-  <h3>About JupyterGIS</h3>
-  <ul>
-    <li class="fragment">A full-featured GIS toolkit inside JupyterLab</li>
-    <li class="fragment">Supports raster and vector layers</li>
-    <li class="fragment">Built with <strong>OpenLayers</strong> + <strong>GDAL</strong> (WebAssembly)</li>
-  </ul>
-</section>
 
 <!-- Vertical stack for features -->
 <section>
