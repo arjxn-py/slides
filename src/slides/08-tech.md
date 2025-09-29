@@ -1,10 +1,10 @@
 <section>
   <h2 style="text-transform: none;">Web Tech Under the Hood</h2>
   <ul>
-    <li class="fragment"><strong>WebAssembly (WASM)</strong></li>
-    <li class="fragment"><strong>PyCRDT + Y.js</strong></li>
-    <li class="fragment"><strong>IndexedDB</strong></li>
-    <li class="fragment"><strong>Jupyter extensions</strong></li>
+    <li class="fragment"><strong>JupyterLab plugin</strong></li>
+    <li class="fragment"><strong>PyCRDT + Y.js for collaboration</strong></li>
+    <li class="fragment"><strong>WebAssembly (WASM) for processing</strong></li>
+    <li class="fragment"><strong>Open Layers for visualization</strong></li>
   </ul>
 </section>
 
