@@ -1,5 +1,5 @@
 <!-- .slide -->
-<div style="text-align: left; line-height: 1.2;">
+<div style="text-align: left; line-height: 1.2; position: relative;">
 
   <h3 style="font-size: 1.5em; margin: 0; text-transform: none;">
     Collaborative
@@ -15,13 +15,18 @@
     <img src="images/jupyterlite.png" alt="JupyterLite" style="height: 1em; vertical-align: middle; margin-left: 0.2em;" />
   </h3>
 
-
   <p style="font-style: italic; margin-top: 0.5em;">Arjun Verma and Martin Renou</p>
   <div style="margin-top: 0.5em;">
     <img src="images/logo-qs.svg" alt="QuantStack" style="height: 3em; vertical-align: middle;" />
   </div>
+
+  <!-- QR Code -->
+  <img src="images/slide-qr.svg" 
+       alt="QR Code" 
+       style="position: absolute; bottom: 1rem; right: 1rem; height: 15rem;" />
 </div>
 <!-- .slide: data-transition="zoom" -->
+
 
 
 ---
@@ -300,10 +305,10 @@
 <section>
   <h3>About JupyterCAD</h3>
   <ul>
-    <li class="fragment">Browser-native 3D modeling for JupyterLab</li>
-    <li class="fragment">Built on <strong>OpenCascade</strong> (via WebAssembly) and <strong>ThreeJS</strong> for display</li>
-    <li class="fragment">Parametric, sketch-driven design</li>
-    <li class="fragment">Integrates with Python code cells</li>
+    <li >Browser-native 3D modeling for JupyterLab</li>
+    <li >Built on <strong>OpenCascade</strong> (via WebAssembly) and <strong>ThreeJS</strong> for display</li>
+    <li >Parametric, sketch-driven design</li>
+    <li >Integrates with Python code cells</li>
   </ul>
 </section>
 
@@ -326,72 +331,6 @@
 
   <iframe
     src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ACreate-Basic-Shapes.jcad"
-    style="
-      border: none;
-      width: 100vw;
-      height: 75vh;
-      transform: scale(0.9);
-      transform-origin: top center;
-    "
-  ></iframe>
-</section>
-
-
-<!-- Vertical stack for features -->
-<section>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-    <a
-      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ASketch.jcad"
-      target="_blank"
-      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
-    >
-      <h3 style="text-transform: none; margin: 0;">Sketch-based Modeling</h3>
-      <img
-        src="images/jcad.png"
-        alt="JupyterCAD Logo"
-        style="height: 50px; object-fit: contain;"
-      />
-    </a>
-  </div>
-
-  <p style="text-align: center; margin-bottom: 1rem;">
-    Draw 2D sketches and turn them into 3D shapes
-  </p>
-
-  <iframe
-    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3ASketch.jcad"
-    style="
-      border: none;
-      width: 100vw;
-      height: 75vh;
-      transform: scale(0.9);
-      transform-origin: top center;
-    "
-  ></iframe>
-</section>
-
-<section>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-    <a
-      href="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AOperations.jcad"
-      target="_blank"
-      style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;"
-    >
-      <h3 style="text-transform: none; margin: 0;">Boolean Operations</h3>
-      <img
-        src="images/jcad.png"
-        alt="JupyterCAD Logo"
-        style="height: 50px; object-fit: contain;"
-      />
-    </a>
-  </div>
-
-  <p style="text-align: center; margin-bottom: 1rem;">
-    Cut, union, and intersect shapes with precision
-  </p>
-
-  <iframe
-    src="https://arjxn-py.github.io/myp/lab/index.html?path=RTC%3AOperations.jcad"
     style="
       border: none;
       width: 100vw;
@@ -500,26 +439,26 @@
 
 <section>
   <p><strong>🧮 Python API for programmatic geometry</strong></p>
-  <p class="fragment">Write Python code to generate & modify shapes</p>
+  <p >Write Python code to generate & modify shapes</p>
   <video src="video/jcad/jcad-console.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>📓 Notebook integration</strong></p>
-  <p class="fragment">CAD alongside your code & documentation</p>
+  <p >CAD alongside your code & documentation</p>
   <video src="video/jcad/jcad-notebook.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <p><strong>🤝 Collaborative editing</strong></p>
-  <p class="fragment" style="font-size: 1.9rem">CRDT-based real-time co-editing via Y.js & PyCRDT</p>
+  <p  style="font-size: 1.9rem">CRDT-based real-time co-editing via Y.js & PyCRDT</p>
   <video src="video/jcad/jcad-collaborative.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
 
 <section>
   <h3>💬 Suggestion Workflow</h3>
-  <p style="font-size: 1rem">
-    Collaborators can review models like <strong>pull requests</strong> — suggest, accept, or reject changes asynchronously.
+  <p style="font-size: 1.9rem">
+    Like Github Pull Requests, Collaborators can review models — suggest, accept, or reject changes asynchronously.
   </p>
   <video src="video/jcad/jcad-suggestions.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
 </section>
@@ -527,11 +466,11 @@
 <section>
   <h3>📁 File Format Support</h3>
   <ul>
-    <li class="fragment"><strong>FCStd</strong> — Read, edit, and export <em>FreeCAD</em> project files natively</li>
-    <li class="fragment"><strong>STL</strong> — Import mesh models for quick inspection or editing</li>
-    <li class="fragment"><strong>STEP</strong> — Bring in precise solid geometry from external CAD tools</li>
+    <li ><strong>FCStd</strong> — Read, edit, and export <em>FreeCAD</em> project files natively</li>
+    <li ><strong>STL</strong> — Import mesh models for quick inspection or editing</li>
+    <li ><strong>STEP</strong> — Bring in precise solid geometry from external CAD tools</li>
   </ul>
-  <p class="fragment" style="margin-top: 1rem;">
+  <p  style="margin-top: 1rem;">
     Move between tools without friction — with support for common CAD formats.
   </p>
 </section>
@@ -560,9 +499,9 @@
 <section>
   <h3>About JupyterGIS</h3>
   <ul>
-    <li class="fragment">A full-featured GIS toolkit inside JupyterLab</li>
-    <li class="fragment">Supports raster and vector layers</li>
-    <li class="fragment">Built with <strong>OpenLayers</strong> + <strong>GDAL</strong> (WebAssembly)</li>
+    <li >A full-featured GIS toolkit inside JupyterLab</li>
+    <li >Supports raster and vector layers</li>
+    <li >Built with <strong>OpenLayers</strong> + <strong>GDAL</strong> (WebAssembly)</li>
   </ul>
 </section>
 
@@ -790,7 +729,7 @@
 
   <section>
   <h3>🧩 QGIS Compatibility</h3>
-  <p class="fragment">
+  <p >
     Import and export QGIS files, layers, and styles seamlessly.
   </p>
   <video src="video/jgis/jgis-qgis.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>

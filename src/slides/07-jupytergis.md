@@ -1,9 +1,9 @@
 <section>
   <h3>About JupyterGIS</h3>
   <ul>
-    <li class="fragment">A full-featured GIS toolkit inside JupyterLab</li>
-    <li class="fragment">Supports raster and vector layers</li>
-    <li class="fragment">Built with <strong>OpenLayers</strong> + <strong>GDAL</strong> (WebAssembly)</li>
+    <li >A full-featured GIS toolkit inside JupyterLab</li>
+    <li >Supports raster and vector layers</li>
+    <li >Built with <strong>OpenLayers</strong> + <strong>GDAL</strong> (WebAssembly)</li>
   </ul>
 </section>
 
@@ -231,7 +231,7 @@
 
   <section>
   <h3>🧩 QGIS Compatibility</h3>
-  <p class="fragment">
+  <p >
     Import and export QGIS files, layers, and styles seamlessly.
   </p>
   <video src="video/jgis/jgis-qgis.mp4" autoplay loop muted playsinline style="max-width: 90%; margin-top: 1rem;"></video>
