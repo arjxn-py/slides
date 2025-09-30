@@ -843,6 +843,37 @@
   ></iframe>
 </section>
 
+<section>
+  <h3>📦 STAC Integration</h3>
+  <p>
+    Browse and visualize datasets directly from <strong>STAC catalogues</strong>
+  </p>
+  <video 
+    src="video/jgis/jgis-stac.mp4" 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    style="max-width: 90%; margin-top: 1rem;"
+  ></video>
+</section>
+
+
+<section>
+  <h3>🌐 TiTiler Integration</h3>
+  <p>
+    Serve and explore vector & raster dynamically using <strong>Python + TiTiler</strong>
+  </p>
+  <video 
+    src="video/jgis/jgis-titiler.mp4" 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    style="max-width: 90%; margin-top: 1rem;"
+  ></video>
+</section>
+
 
 ---
 
