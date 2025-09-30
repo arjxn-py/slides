@@ -611,7 +611,7 @@
   </div>
 
   <p style="text-align: center; margin-bottom: 1rem;">
-    Use <strong>multiband rendering</strong> to style raster datasets
+    Use <strong>singleband & multiband rendering</strong> to style raster datasets
   </p>
 
   <iframe
