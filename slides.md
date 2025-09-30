@@ -843,6 +843,37 @@
   ></iframe>
 </section>
 
+<section>
+  <h3>📦 STAC Integration</h3>
+  <p>
+    Browse and visualize datasets directly from <strong>STAC catalogues</strong>
+  </p>
+  <video 
+    src="video/jgis/jgis-stac.mp4" 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    style="max-width: 90%; margin-top: 1rem;"
+  ></video>
+</section>
+
+
+<section>
+  <h3>🌐 TiTiler Integration</h3>
+  <p>
+    Serve and explore vector & raster dynamically using <strong>Python + TiTiler</strong>
+  </p>
+  <video 
+    src="video/jgis/jgis-titiler.mp4" 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    style="max-width: 90%; margin-top: 1rem;"
+  ></video>
+</section>
+
 
 ---
 
@@ -892,8 +923,8 @@
 
   <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; font-size:2.2rem; line-height:1.6;">
   
-  <div>🌍 <strong>Environmental Science</strong><br><span style="color:#555;">Geospatial analysis</span></div>
-  <div>🌊 <strong>Geoscience</strong><br><span style="color:#555;">Urban mapping</span></div>
+  <div>🌍 <strong>Environmental Science</strong><br><span style="color:#555;">Analyze climate or land-use patterns</span></div>
+  <div>🌊 <strong>Geoscience</strong><br><span style="color:#555;">Map terrain, water or seismic data</span></div>
   <div>🛠️ <strong>Engineering</strong><br><span style="color:#555;">Parametric CAD models in notebooks</span></div>
   <div>📐 <strong>Education</strong><br><span style="color:#555;">Teach CAD/GIS with no installs</span></div>
   <div>⚡ <strong>R&D</strong><br><span style="color:#555;">Prototype & share browser-native apps</span></div>
